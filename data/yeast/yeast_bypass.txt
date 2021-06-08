@@ -1,0 +1,381 @@
+StrainID	ParentalStrainID	QueryGene	QueryORF	Ploidy	GenomeSize	PloidyParent	Fitness	SuppressorGene	SuppressorORF	SuppressorMutationBP	SuppressorMutationAA	SuppressorType	SuppressorTypeJustification	OverexpressionScreen	SuppressorPredictionRank	LinkageSGA	Segregation	LOFsuppression	LinkageTetrads	Complementation	SuppressorCloning
+ES956	TSP588	ACS2	YLR153C	1n + dis IX	12511214	1n	0.40	UME6	YDR207C	T555G	Y185*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	x	ND	ND	ND	-	v	-	v
+ES1001	TSP588	ACS2	YLR153C	1n + dis I, dis IX	12741432	1n	0.76	UME6	YDR207C	del@C942	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	x	ND	ND	v	-	v	v	v
+ES063	TSP588	ACS2	YLR153C	1n + dis I	12301544	1n	0.86	UME6	YDR207C	del@T21-C22	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	x	ND	ND	v	-	v	v	v
+ES062	TSP588	ACS2	YLR153C	1n + dis IX	12511214	1n	0.78	UME6	YDR207C	ins@A649	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	x	ND	ND	v	-	v	v	v
+ES064	TSP591	ACS2	YLR153C	1n + dis I	12301544	ND	0.89	UME6	YDR207C	G2340T	K780N	LOF	Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	x	ND	ND	v	-	v	v	v
+ES152	TSP2182	ADE13	YLR359W	1n	12071326	ND	0.99	ADE2	YOR128C	T956C, ins@A959	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	-	v	v	v	x	x
+ES153	TSP2182	ADE13	YLR359W	1n	12071326	ND	0.95	ADE4	YMR300C	re-arrangement	re-arrangement	unknown		ND	ND	-	v	-	v	v	ND
+ES151	TSP2179	ADE13	YLR359W	2n + tris VII	25233592	1n	0.91	ADE4	YMR300C	G324C	L108F	unknown		x	ND	ND	-	ND	ND	x	ND
+ES150	TSP2179	ADE13	YLR359W	1n	12071326	1n	0.98	BAS1	YKR099W	23kb deletion	deletion	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES154	TSP2182	ADE13	YLR359W	1n	12071326	ND	1.00	BAS1	YKR099W	G443A	R148K	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES366	TSP3393	ALR1	YOL130W	1n	12071326	ND	0.97	ALR2	YFL050C	re-arrangement	re-arrangement	unknown		ND	ND	v	v	-	-	x	ND
+ES155	TSP2185	ARB1	YER036C	1n	12071326	ND	0.89	FUN12	YAL035W	A2465G	Y822C	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 5 independent suppressor isolates	ND	ND	v	v	-	v	v	ND
+ES157	TSP2185	ARB1	YER036C	1n	12071326	ND	0.89	FUN12	YAL035W	G1925A	G642D	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 5 independent suppressor isolates	ND	ND	v	v	-	v	v	ND
+ES1187	TSP2184	ARB1	YER036C	1n	12071326	ND	0.48	FUN12	YAL035W	G2825T	R942L	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 5 independent suppressor isolates	ND	ND	ND	-	-	-	v	ND
+ES156	TSP2185	ARB1	YER036C	1n	12071326	ND	0.87	FUN12	YAL035W	T2870A	V957D	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 5 independent suppressor isolates	ND	ND	v	v	-	-	v	ND
+ES1272	TSP2185	ARB1	YER036C	1n	12071326	ND	0.89	FUN12	YAL035W	T2870G	V957G	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 5 independent suppressor isolates	ND	ND	ND	v	-	v	v	ND
+ES1120	TSP3798	ARP7	YPR034W	1n	12071326	ND	0.73	STH1	YIL126W	T1141A	L381M	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	ND	v	x	-	-	ND
+ES412	TSP3798	ARP7	YPR034W	1n	12071326	ND	0.69	STH1	YIL126W	G1138T	A380S	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	-	v	-	v	x	ND
+ES316	TSP3798	ARP7	YPR034W	1n	12071326	ND	0.33	STH1	YIL126W	G1156A	E386K	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	ND	v	x	x	x	ND
+ES1055	TSP3803	ARP9	YMR033W	1n	12071326	1n	0.33	STH1	YIL126W	G1138T	A380S	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	ND	v	-	-	x	ND
+ES318	TSP3803	ARP9	YMR033W	1n	12071326	1n	0.67	STH1	YIL126W	T1165C	Y389H	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	ND	-	x	x	x	ND
+ES448	TSP3803	ARP9	YMR033W	1n	12071326	1n	0.61	STH1	YIL126W	T1175A, G1180A	L392H, D394N	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	ND	ND	-	v	-	-	x	ND
+ES414	TSP3803	ARP9	YMR033W	1n + dis VIII	12633969	1n	0.57	STH1	YIL126W	G1138T	A380S	GOF	Lack of LOF mutations (frameshift, introduced stop codons) in 7 independent suppressor isolates	x	ND	ND	v	-	-	x	ND
+ES1150	TSP1187	ATP16	YDL004W	1n	12071326	ND	0.51	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1251	TSP1187	ATP16	YDL004W	1n	12071326	ND	0.51	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES160	TSP2195	AVO1	YOL078W	1n	12071326	ND	0.48	ORM2	YLR350W	T158A	V53E	LOF	LOF phenotype was confirmed in ES1129	ND	ND	ND	v	-	-	v	ND
+ES229	TSP3083	AVO1	YOL078W	1n	12071326	ND	0.37	ORM2	YLR350W	T451G	Y151D	LOF	LOF phenotype was confirmed in ES1129	ND	ND	ND	v	-	-	v	ND
+ES228	TSP3075	AVO1	YOL078W	1n	12071326	ND	0.63	YPK1	YKL126W	C656A	T219K	unknown		ND	ND	-	v	-	x	x	ND
+ES1245	TSP3060	BUR6	YER159C	2n + tris V	24719526	ND	0.67	RPB2	YOR151C	G359A	R120H	unknown		-	ND	ND	-	ND	ND	v	ND
+ES225	TSP3118	BUR6	YER159C	2n + tris V	24719526	ND	0.71	SUA7	YPR086W	A559G	R187G	unknown		-	ND	ND	-	ND	ND	v	ND
+ES1237	TSP3118	BUR6	YER159C	2n	24142652	ND	0.60	SUA7	YPR086W	G610C	G204R	unknown		ND	ND	ND	x	ND	ND	v	ND
+ES224	TSP3118	BUR6	YER159C	2n + tris I	24372870	ND	0.72	TOA1	YOR194C	A763G	K255E	unknown		-	ND	ND	-	ND	ND	v	ND
+ES1115	TSP3738	CDC11	YJR076C	1n	12071326	ND	ND	SHS1	YDL225W	del@A694	frameshift	LOF	Suppressor mutation	ND	ND	ND	-	-	-	ND	ND
+ES1053	TSP3776	CDC14	YFR028C	2n + monos IV (partial)	23913652	1n	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES340	TSP4006	CDC14	YFR028C	2n + monos IV	22610719	ND	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES406	TSP3776	CDC14	YFR028C	2n + tris VII, monos IX, tris XIII	25718135	1n	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1066	TSP4006	CDC14	YFR028C	2n + tris VII, tris VIII, tris X, tris XII, tris XIII, tris XVI	29492660	ND	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES287	TSP3546	CDC15	YAR019C	2n + monos IV, monos IX, monos X	21425080	1n	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES334	TSP3958	CDC15	YAR019C	2n + monos IV, monos X	21864968	1n	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES431	TSP3958	CDC15	YAR019C	2n + monos III	23826032	1n	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1039	TSP3546	CDC15	YAR019C	2n + monos I, monos III, tetra VI (partial), tetra VII (partial)	24892016	1n	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1062	TSP3958	CDC15	YAR019C	2n + monos I, monos III, tetra VI (partial), tetra VII (partial)	24384016	1n	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1105	TSP3635	CDC25	YLR310C	1n	12071326	ND	1.01	IRA1; IRA2	YBR140C; YOL081W	ins@A6611; ins@A4056	frameshift; frameshift	LOF; LOF	Suppressor mutation; Suppressor mutation	ND	ND	ND	v	-	-; v	-	ND
+ES1048	TSP3635	CDC25	YLR310C	1n	12071326	ND	1.02	IRA1; IRA2	YBR140C; YOL081W	ins@A6611; A1786C	frameshift; T596P	LOF; LOF	Suppressor mutation; Suppressor mutation in ES1105	ND	ND	ND	v	-	-; v	v; ND	ND
+ES396	TSP3635	CDC25	YLR310C	1n	12071326	ND	0.95	IRA2; RAS2	YOL081W; YNL098C	del@A4380; del@G59-G61	frameshift; inframe deletion	LOF; unknown	Suppressor mutation	ND	ND	ND	-	-	-	ND; x	ND
+ES403	TSP3762	CDC36	YDL165W	1n	12071326	ND	0.16	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES1285	TSP2243	DCP1	YOL149W	1n	12071326	ND	0.20	KAP123	YER110C	del@G673	frameshift	LOF	Suppressor mutation	ND	ND	ND	v	x	-	x	ND
+ES317	TSP3799	DCP2	YNL118C	1n	12071326	ND	0.54	KAP123	YER110C	G3067T	E1023*	LOF	Suppressor mutation	ND	ND	-	v	x	-	v	ND
+ES1149	TSP4023	DCP2	YNL118C	1n	12071326	ND	0.34	KAP123	YER110C	T2789A	L930*	LOF	Suppressor mutation	ND	ND	ND	v	x	-	v	ND
+ES1144	TSP4012	DCP2	YNL118C	1n + dis XII (partial)	12232326	ND	0.34	KAP123	YER110C	C861G	Y287*	LOF	Suppressor mutation	x	ND	ND	v	x	-	x	ND
+ES284	TSP3528	DML1	YMR211W	1n	12086326	ND	0.96	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1038	TSP3528	DML1	YMR211W	1n + dis IX, dis X, dis XI	13923781	ND	0.76	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1091	TSP3528	DML1	YMR211W	1n + dis X	12817077	ND	0.80	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1026	TSP3233	DOP1	YDR141C	1n	12071326	ND	0.91	ANY1	YMR010W	C71G	S24*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	ND	v	?	x	v	v
+ES347	ND	DOP1	YDR141C	1n	12071326	ND	0.98	ANY1	YMR010W	A467C, ins@T468	E156A, frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES345	TSP3233	DOP1	YDR141C	1n	12071326	ND	0.89	ANY1	YMR010W	G238A	G80R	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	-	v	v	v	v	v
+ES243	TSP3233	DOP1	YDR141C	1n	12071326	ND	0.88	ANY1	YMR010W	G623T	R208I	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	-	v	v	v	v	v
+ES184	TSP2259	DUT1	YBR252W	1n	12071326	ND	0.49	HAM1	YJR069C	C541A	R181S	unknown		ND	ND	ND	v	-	-	-	ND
+ES1218	TSP2867	ECM9	YKR004C	1n	12071326	ND	1.10	RCE1	YMR274C	del@C748	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES232	TSP1292	ECM9	YKR004C	1n	12071326	ND	1.07	RCE1	YMR274C	G848A	W283*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES207	TSP2867	ECM9	YKR004C	2n	24142652	ND	0.98	RCE1	YMR274C	del@G432	frameshift	LOF	Suppressor mutation	ND	ND	ND	-	ND	ND	v	ND
+ES209	TSP2869	ECM9	YKR004C	1n	12071326	ND	1.07	YNL320W	YNL320W	C279A	Y93*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES208	TSP2867	ECM9	YKR004C	1n	12071326	ND	1.06	YNL320W	YNL320W	G316T	G106*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES210	TSP2869	ECM9	YKR004C	1n	12071326	ND	1.12	YNL320W	YNL320W	A692G	D231G	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES1217	TSP2866	ECM9	YKR004C	1n	12071326	ND	1.20	YNL320W	YNL320W	C783G	H261Q	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES116	TSP1292	ECM9	YKR004C	1n	12071326	ND	1.13	YNL320W	YNL320W	G475T	G159C	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES193	ND	ECM9	YKR004C	1n	12071326	ND	1.03	YNL320W	YNL320W	T200G	L67R	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES205	TSP2866	ECM9	YKR004C	1n	12071326	ND	1.11	YNL320W	YNL320W	T200G	L67R	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES1219	TSP2869	ECM9	YKR004C	1n	12071326	ND	0.92	YNL320W	YNL320W	T622C	W208R	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES206	TSP2866	ECM9	YKR004C	1n + dis I	12301544	ND	1.14	YNL320W	YNL320W	C422G	S141*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	x	ND	ND	v	v	v	v	ND
+ES029	TSP328	EPL1	YFL024C	2n + tetra XI	25476284	2n	0.47	HDA2	YDR295C	C1660T	Q554*	LOF	Suppressor mutation	x	ND	ND	-	ND	ND	v	ND
+ES986	TSP324	EPL1	YFL024C	2n + tris III, tris XI, tris XII	26204265	ND	0.54	HDA3	YPR179C	T1751A	L584*	LOF	Suppressor mutation	x	ND	ND	-	ND	ND	ND	ND
+ES945	TSP324	EPL1	YFL024C	1n	12071326	ND	0.96	MOT3	YMR070W	del@A325	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES1290	TSP2281	EPL1	YFL024C	2n + tetra XI	25476284	ND	0.58	SAP30	YMR263W	C448T	Q150*	LOF	Suppressor mutation	x	ND	ND	-	ND	ND	x	ND
+ES034	TSP324	EPL1	YFL024C	2n + tris XI	24809468	ND	0.81	SDS3	YIL084C	G211T	E71*	LOF	Suppressor mutation	x	ND	ND	-	ND	ND	v	ND
+ES1096	TSP3582	ERD2	YBL040C	1n	12071326	ND	1.01	ERV29	YGR284C	T841G	Y281D	LOF	Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	ND	-	-	-	?	v
+ES1044	TSP3582	ERD2	YBL040C	1n	12071326	ND	0.96	ERV29	YGR284C	A157T	R53*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	ND	v	-	v	v	v
+ES1056	ND	ERD2	YBL040C	1n	12071326	ND	0.95	ERV29	YGR284C	A157T	R53*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	x	v	v	v	v
+ES388	TSP3582	ERD2	YBL040C	1n	12071326	ND	1.16	ERV29	YGR284C	C479A	S160*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	-	v	v	v	v	v
+ES297	TSP3582	ERD2	YBL040C	1n	12071326	ND	0.95	ERV29	YGR284C	del@C714	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES071	TSP724	ERG29	YMR134W	2n + monos III, tris V, tris VII, tris VIII, tris XIII	26980920	1n	0.48	unknown	unknown	ND	ND	unknown		-	ND	ND	-	ND	ND	ND	ND
+ES070	TSP724	ERG29	YMR134W	1n	12071326	1n	0.87	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES429	TSP3946	ESA1	YOR244W	2n + tris XI	24809468	2n	0.77	DEP1	YAL013W	26bp deletion	frameshift	LOF	Suppressor mutation	x	ND	ND	v	ND	ND	x	x
+ES1083	TSP3492	ESA1	YOR244W	2n + tetra XI	25476284	1n	0.70	SAP30	YMR263W	C208T	Q70*	LOF	Suppressor mutation	x	ND	ND	-	ND	ND	v	ND
+ES1134	TSP3946	ESA1	YOR244W	2n + tetra XI	25476284	2n	0.75	SDS3	YIL084C	C531A, G532T	N177K, E178*	LOF	Suppressor mutation in ES034	x	ND	ND	-	ND	ND	v	ND
+ES276	TSP3492	ESA1	YOR244W	2n + tetra XI	25476284	1n	0.54	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES332	TSP3946	ESA1	YOR244W	2n + tris III	24459272	2n	0.35	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1203	TSP2304	FHL1	YPR104C	1n	12071326	ND	0.56	HDA2	YDR295C	del@T91	frameshift	LOF	Suppressor mutation	ND	ND	ND	v	-	v	v	ND
+ES1295	TSP2304	FHL1	YPR104C	1n	12071326	ND	0.46	THO1	YER063W	A155G	Q52R	unknown		ND	ND	ND	x	-	-	v	ND
+ES363	TSP3359	FRQ1	YDR373W	1n	12071326	ND	1.09	ARF2	YDL137W	C227A	S76Y	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"). Note: "SuppressorCloning" was done using an ARF2-S76Yallele	ND	ND	v	v	SL	v	?	v
+ES260	TSP3359	FRQ1	YDR373W	1n	12071326	ND	0.98	PIK1	YNL267W	T2546A	M849K	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	x	v	SL	v	x	ND
+ES998	TSP676	GCR1	YPL075W	1n	12071326	ND	0.94	TYE7	YOR344C	A749G	N250S	GOF		ND	ND	ND	v	-	v	x	ND
+ES1165	TSP982	GCR1	YPL075W	1n	12071326	ND	0.80	TYE7	YOR344C	G565C	E189Q	GOF		ND	ND	ND	v	-	-	x	ND
+ES1126	TSP3858	GPI1	YGR216C	1n + dis XVI	13019392	ND	0.61	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1058	TSP3858	GPI1	YGR216C	1n	12071326	ND	0.73	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES1116	TSP3753	GPI2	YPL076W	2n	24142652	ND	0.51	SPT14	YPL175W	C369G	D123E	unknown		ND	ND	ND	v	ND	ND	v	ND
+ES329	ND	HYP2	YEL034W	1n	12071326	ND	1.14	ROX1	YPR065W	C577T	Q193*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES423	TSP3914	HYP2	YEL034W	1n	12071326	ND	1.07	ROX1	YPR065W	del@T504	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES325	TSP3914	HYP2	YEL034W	1n	12071326	ND	1.08	ROX1	YPR065W	G91T	E31*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES259	TSP3352	HYP2	YEL034W	1n	12071326	ND	0.99	ROX1	YPR065W	ins@C867	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES362	TSP3352	HYP2	YEL034W	1n	12071326	ND	1.00	ROX1	YPR065W	ins@T693	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES326	ND	HYP2	YEL034W	1n	12071326	ND	1.06	ROX1	YPR065W	12bp deletion	inframe deletion	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES364	ND	HYP2	YEL034W	1n	12071326	ND	1.09	ROX1	YPR065W	G35T	R12I	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	v	v	v	ND
+ES1222	TSP2873	INN1	YNL152W	1n	12071326	ND	ND	LEM3	YNL323W	del@G598	frameshift	LOF	Suppressor mutation	ND	ND	ND	v	-	-	x	ND
+ES215	TSP2873	INN1	YNL152W	1n	12071326	ND	ND	LEM3	YNL323W	del@T645-T646	frameshift	LOF	Suppressor mutation	ND	ND	-	v	-	-	x	ND
+ES214	TSP2873	INN1	YNL152W	2n	24142652	ND	ND	SAC7	YDR389W	G641C	R214T	unknown		ND	ND	ND	-	ND	ND	-	ND
+ES212	TSP2872	INN1	YNL152W	1n + dis V, dis XI	13315016	ND	ND	SPA2	YLL021W	G956T	S319I	unknown		x	ND	ND	x	-	-	-	ND
+ES1221	TSP2872	INN1	YNL152W	1n	12071326	ND	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES1253	TSP1392	INO80	YGL150C	2n	24142652	ND	0.76	RCO1	YMR075W	C1260A	C420*	LOF	Suppressor mutation	ND	ND	ND	-	ND	ND	v	ND
+ES1152	TSP1392	INO80	YGL150C	2n	24142652	ND	0.87	RCO1	YMR075W	del@C629	frameshift	LOF	Suppressor mutation	ND	ND	ND	-	ND	ND	v	ND
+ES1254	TSP1393	INO80	YGL150C	2n	24142652	ND	0.73	YNG2	YHR090C	G715C	D239H	unknown		ND	ND	ND	-	ND	ND	v	ND
+ES123	TSP1410	IQG1	YPL242C	1n	12071326	ND	0.80	CHS2	YBR038W	C2393T	T798I	unknown		ND	ND	v	v	ND	v	v	ND
+ES131	ND	IQG1	YPL242C	2n + tris II, tris XI	25622652	ND	0.59	ECM33	YBR078W	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	596	ND	-	ND	ND	ND	ND
+ES121	TSP1409	IQG1	YPL242C	1n + dis II, dis XI	13551326	1n	ND	ECM33	YBR078W	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	596	ND	v	ND	ND	ND	ND
+ES1154	TSP1492	IQG1	YPL242C	1n + dis II, dis XI	13551326	ND	ND	ECM33	YBR078W	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	596	ND	x	ND	ND	ND	ND
+ES1156	TSP1409	IQG1	YPL242C	2n + monos III, monos VI, monos VIII, monos XIV, monos XV	21117604	1n	ND	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1157	TSP1410	IQG1	YPL242C	1n + dis XV	13162617	ND	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1158	TSP1417	JAC1	YGL018C	1n + dis XVI	13019392	ND	0.65	AFT1	YGL071W	C629A	S210*	LOF	Suppressor mutation	x	ND	ND	-	ND	-	v	ND
+ES996	TSP664	JIP5	YPR169W	1n	12071326	ND	0.64	TOM1	YDR457W	C6554A	S2185*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	ND	ND
+ES1175	TSP1126	JIP5	YPR169W	1n + dis XII (partial)	12135326	ND	0.58	TOM1	YDR457W	T5717G	M1906R	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	x	ND	ND	x	v	v	ND	ND
+ES952	TSP564	KAE1	YKR038C	1n	12071326	ND	0.53	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES951	TSP563	KAE1	YKR038C	1n + dis II, dis IX	13324398	ND	0.36	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES055	TSP564	KAE1	YKR038C	1n + dis II, dis IX	13324398	ND	0.38	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES380	TSP3544	KRE9	YJL174W	1n + dis IX	12511214	ND	0.48	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES286	TSP3544	KRE9	YJL174W	1n + dis V	12648200	ND	0.87	YBR225W	YBR225W	A2071G	K691E	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	x	ND	ND	-	SL	-	x	ND
+ES1140	TSP3966	LAS17	YOR181W	1n	12071326	ND	0.64	ABP1	YCR088W	G1498T	E500*	LOF	Suppressor mutation	ND	ND	ND	v	-	-	v	ND
+ES1289	TSP2373	LSM4	YER112W	1n + dis II, dis VI, dis XII, dis XIII	15157279	ND	0.59	PRP24	YMR268C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	7	ND	x	ND	ND	ND	ND
+ES112	TSP1448	LSM8	YJR022W	1n + dis II, dis V, dis XI, dis XII, dis XIII	16130808	ND	0.70	PRP24	YMR268C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	12	ND	v	ND	ND	ND	ND
+ES261	TSP3371	LST8	YNL006W	1n	12071326	ND	0.87	PPG1	YNR032W	G449T	C150F	unknown		ND	ND	-	v	-	-	v	ND
+ES1146	TSP3920	LST8	YNL006W	1n	12071326	ND	0.76	VPS64	YDR200C	ins@A933	frameshift	LOF	Suppressor mutation	ND	ND	ND	v	-	v	v	ND
+ES391	TSP3601	MCD1	YDL003W	2n	24142652	ND	0.38	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES336	TSP3964	MCD1	YDL003W	1n	12071326	ND	0.89	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1139	TSP3964	MCD1	YDL003W	2n + tris III, tris IV, tris XVI (partial)	26288205	ND	0.40	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1128	TSP3903	MED6	YHR058C	1n + dis XI	12738142	ND	0.22	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES322	TSP3903	MED6	YHR058C	1n + dis XI	12738142	ND	0.36	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES1294	TSP2395	MET4	YNL103W	1n	12071326	ND	0.83	OPI1	YHL020C	C916T	Q306*	LOF	Suppressor mutation	ND	ND	ND	v	x	v	x	ND
+ES189	TSP2398	MMF1	YIL051C	1n + dis II	12884510	ND	ND	CHA1	YCL064C	C749T	A250V	unknown		-	ND	ND	v	-	-	v	ND
+ES1305	ND	MMF1	YIL051C	1n + dis II	12884510	ND	0.50	unknown	unknown	ND	ND	unknown		-	ND	ND	v	ND	ND	ND	ND
+ES1319	ND	MMF1	YIL051C	1n + dis II	12884510	ND	0.54	unknown	unknown	ND	ND	unknown		-	ND	ND	v	ND	ND	ND	ND
+ES1204	TSP2398	MMF1	YIL051C	1n + dis II, dis XI, dis XIII	14475757	ND	0.77	unknown	unknown	ND	ND	unknown		-	ND	ND	v	ND	ND	ND	ND
+ES190	TSP2398	MMF1	YIL051C	1n + dis II, dis XIII	13808941	ND	0.61	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1206	TSP2409	MRPS18	YNL306W	1n	12071326	ND	0.65	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1167	TSP905	MTR10	YOR160W	1n + dis IV	13603259	ND	0.82	HMT1	YBR034C	T920C	L307S	LOF	Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	-	ND	ND	-	-	-	v	v
+ES093	TSP905	MTR10	YOR160W	1n	12071326	ND	0.85	HMT1	YBR034C	G601T	E204*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	-	v	-	v	v	v
+ES975	TSP905	MTR10	YOR160W	1n	12071326	ND	0.74	HMT1	YBR034C	del@G352	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES978	TSP920	MTR10	YOR160W	1n	12071326	ND	0.86	HMT1	YBR034C	C847A	H283N	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	x	v	v	v	v
+ES964	TSP544	MTR10	YOR160W	1n + dis XIV	12855659	ND	0.88	NPL3	YDR432W	A581T	K194I	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	-	ND	ND	x	SL	v	v	ND
+ES965	ND	MTR10	YOR160W	1n + dis XIV	12855659	ND	0.58	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1248	TSP3165	NAM9	YNL137C	1n + dis III (partial), dis XIII (partial)	12766777	ND	0.50	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1301	TSP2334	NCB2	YDR397C	2n	24142652	ND	0.62	SUA7	YPR086W	ins@TAA879	insertion	unknown		ND	ND	ND	-	ND	ND	v	ND
+ES1208	TSP2334	NCB2	YDR397C	1n	12071326	ND	0.87	TOA1	YOR194C	G855T	W285C	unknown	Note: "SuppressorCloning" was done using a TOA1-W285C allele	ND	ND	ND	x	-	-	v	v
+ES125	TSP1506	NCB2	YDR397C	1n + dis IX	12511214	ND	0.75	TOA2	YKL058W	A206G	Y69C	unknown		x	ND	ND	-	-	-	x	ND
+ES1014	TSP438	NCP1	YHR042W	1n + dis IV (partial), dis IX	12695214	ND	0.61	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES1300	TSP2422	NET1	YJL076W	1n + dis XVI	13019392	ND	0.67	RPA43	YOR340C	G763T	E255*	LOF	Suppressor mutation	x	ND	ND	v	-	-	v	ND
+ES194	TSP2424	NET1	YJL076W	1n + dis I, dis III	12618164	ND	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES239	TSP2436	NET1	YJL076W	2n + tris I, tris XI	25039686	ND	0.21	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1174	TSP1120	NOC4	YPR144C	1n	12071326	ND	0.54	NOP6	YDL213C	G484T	E162*	LOF	Suppressor mutation	ND	ND	ND	-	x	x	x	ND
+ES036	TSP359	NSA1	YGL111W	1n	12071326	ND	0.89	EBP2	YKL172W	27bp insertion	inframe insertion	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	SL	v	v	ND
+ES991	TSP360	NSA1	YGL111W	1n	12071326	ND	0.73	NOP12	YOL041C	A1306G	R436G	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	x	SL	v	v	ND
+ES990	TSP359	NSA1	YGL111W	1n	12071326	ND	0.99	NOP4	YPL043W	C1609A	Q537K	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES035	TSP359	NSA1	YGL111W	1n	12071326	ND	0.44	NOP4	YPL043W	G1597C, G1648A	G533R, G550R	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	ND	v	v	v	ND
+ES1137	TSP3960	NSE4	YDL105W	1n	12071326	ND	0.59	SHU1	YHL006C	ins@T197	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	-	-	v	ND
+ES449	TSP3949	NTF2	YER009W	1n	12289326	ND	1.01	GSP1	YLR293C	duplication	duplication	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	SL	v	x	ND
+ES374	TSP3505	NTF2	YER009W	1n + dis VIII, dis XII (partial)	12923969	ND	0.91	GSP1	YLR293C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"), Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	ND	x	v	SL	x	x	ND
+ES1135	TSP3949	NTF2	YER009W	1n + dis XII	13149503	ND	0.88	GSP1	YLR293C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	39	ND	x	-	-	x	ND
+ES078	TSP939	NUP116	YMR047C	1n	12071326	ND	0.97	BRL1	YHR036W	C79T	L27F	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	SL	v	x	ND
+ES1243	TSP3051	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.93	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	ND	ND	x	ND
+ES1323	TSP3059	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.75	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	ND	ND	x	ND
+ES1247	TSP3063	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.91	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	x	ND	ND	x	ND
+ES065	TSP702	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.92	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	x	x	x	ND
+ES1324	TSP3061	NUP116	YMR047C	1n + dis VIII, dis XI	13300785	ND	0.84	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	x; v	2	ND	v	ND; x	ND; x	v; v	ND
+ES1241	TSP3042	NUP116	YMR047C	1n + dis VIII, dis XI	13300785	ND	0.77	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"), Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	x; v	2	ND	x	ND; SL	ND; x	x; ?	ND
+ES1246	TSP3061	NUP116	YMR047C	1n + dis VIII, dis XI	13300785	ND	0.89	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"), Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	x; v	2	ND	v	ND; SL	ND; x	x; v	ND
+ES1239	TSP3035	NUP116	YMR047C	1n + dis VIII, dis XI (partial)	12931969	ND	0.88	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	x; v	2	ND	v	ND; x	-	x; v	ND
+ES1321	TSP3042	NUP116	YMR047C	1n + dis VIII, dis XI	13300785	ND	0.90	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	x; v	2	ND	v	ND; x	ND; x	x; v	ND
+ES1244	TSP3055	NUP116	YMR047C	1n + dis VIII (partial), dis XI (partial)	12679326	ND	1.07	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	x; v	2	ND	v	ND; x	ND; x	x; v	ND
+ES041	TSP945	NUP116	YMR047C	1n + dis VIII	12621969	ND	0.93	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; duplication	aneuploidy; duplication	GOF; GOF	Suppressor mutation; Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	x; v	ND	x; v	v	x; x	x; x	x; v	ND
+ES067	TSP707	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.90	BRL1; SSE1	YHR036W; YPL106C	aneuploidy; G1028A	aneuploidy; G343D	GOF; unknown	Suppressor mutation	x; ND	ND	ND	v	x; ND	x; ND	x; ND	ND
+ES1242	TSP3043	NUP116	YMR047C	1n + dis VIII	12633969	ND	1.06	BRL1; SSE1	YHR036W; YPL106C	aneuploidy; G1108A	aneuploidy; E370K	GOF; unknown	Suppressor mutation	x; ND	ND	ND	x	ND	ND	x; ND	ND
+ES068	TSP707	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.90	BRL1; SSE1	YHR036W; YPL106C	aneuploidy; G128A	aneuploidy; G43D	GOF; unknown	Suppressor mutation	x; ND	ND	ND	v	x; ND	x; ND	x; ND	ND
+ES037	TSP946	NUP116	YMR047C	1n + dis VIII	12633969	ND	0.92	BRL1; SSE1	YHR036W; YPL106C	aneuploidy; G712T	aneuploidy; D38Y	GOF; unknown	Suppressor mutation	x; ND	ND	ND	v	x; ND	x; ND	x; ND	ND
+ES277	TSP3493	NUP159	YIL115C	1n	12071326	ND	0.62	NUP100	YKL068W	A2852T	Y951F	GOF	GOF phenotype was confirmed in ES1241, ES1246, ES1239, ES1321, ES1244, ES1324, ES041, and ES289	ND	ND	ND	v	-	-	x	ND
+ES1179	TSP1561	NUP49	YGL172W	1n + dis VIII	12633969	ND	0.74	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	ND	ND	v	ND
+ES1202	TSP2290	NUP49	YGL172W	1n + dis VIII	12633969	ND	0.75	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	ND	ND	x	ND
+ES1200	TSP2464	NUP49	YGL172W	1n + dis VIII	12633969	ND	0.81	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	ND	ND	x	ND
+ES1261	TSP1561	NUP49	YGL172W	2n	24142652	ND	0.40	CRM1	YGR218W	C1724A	T575K	unknown		ND	ND	ND	-	ND	ND	x	ND
+ES382	TSP3549	NUP57	YGR119C	1n + dis VIII	12633969	ND	0.76	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	-	-	v	ND
+ES1136	TSP3959	NUP57	YGR119C	1n + dis VIII	12633969	ND	0.85	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	-	-	v	ND
+ES432	TSP3959	NUP57	YGR119C	1n + dis VIII	12633969	ND	0.81	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	-	-	v	ND
+ES1094	TSP3549	NUP57	YGR119C	1n + dis VIII	12633969	ND	0.76	BRL1	YHR036W	aneuploidy	aneuploidy	GOF	Suppressor mutation	x	ND	ND	v	x	-	v	ND
+ES289	TSP3549	NUP57	YGR119C	1n + dis VIII (partial), dis XI (partial)	12774326	ND	0.84	BRL1; NUP100	YHR036W; YKL068W	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation; Suppressor mutation	x; x	ND	ND	v	-; x	-	v; x	ND
+ES1108	TSP3642	NUT2	YPR168W	2n + monos I, tris XVI	24860500	ND	0.17	TFA2	YKR062W	T33A	N11K	unknown		x	ND	ND	-	ND	ND	x	ND
+ES988	TSP239	PAB1	YER165W	1n	12071326	ND	0.65	CDC39	YCR093W	6bp deletion	inframe deletion	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	x	SL	v	ND	ND
+ES023	TSP239	PAB1	YER165W	1n	12071326	ND	0.80	LSM1	YJL124C	G338A	G113D	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	-	v	v	v	v	x
+ES022	TSP239	PAB1	YER165W	1n	12071326	ND	0.77	LSM1	YJL124C	re-arrangement	re-arrangement	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	-	v	v	v	v	x
+ES021	TSP239	PAB1	YER165W	1n	12071326	ND	0.62	LSM3	YLR438C-A	T116C	I39T	unknown		ND	ND	-	v	x	v	v	ND
+ES987	TSP233	PAB1	YER165W	1n	12071326	ND	0.67	PAT1	YCR077C	T1928G	L643*	LOF	Suppressor mutation	ND	ND	ND	v	-	?	-	ND
+ES947	TSP239	PAB1	YER165W	1n	12071326	ND	0.73	PAT1	YCR077C	C1943G	S648*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES025	TSP233	PAB1	YER165W	2n	24142652	ND	0.55	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES026	TSP233	PAB1	YER165W	1n + dis I	12301544	ND	0.49	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES024	TSP239	PAB1	YER165W	1n	12071326	ND	0.63	YTH1	YPR107C	T575A	M192K	unknown		ND	ND	-	v	x	x	v	ND
+ES1164	TSP802	PBR1	YNL181W	1n	12071326	ND	0.42	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES358	TSP3329	PDC2	YDR081C	1n	12071326	ND	0.61	CDC19	YAL038W	G1214T, G1463T	G405V, G488V	unknown		ND	ND	ND	-	-	-	v	ND
+ES1143	TSP4005	PFY1	YOR122C	1n + dis IX	12511214	ND	0.70	HPM1	YIL110W	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	48	ND	x	ND	ND	ND	ND
+ES405	TSP3775	PFY1	YOR122C	1n	12071326	ND	0.70	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES339	TSP4005	PFY1	YOR122C	1n	12071326	ND	0.65	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES438	TSP4005	PFY1	YOR122C	1n	12071326	ND	0.70	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1081	TSP3478	PKC1	YBL105C	1n + dis III, dis XVI	13336012	ND	0.71	BCK1	YJL095W	G4123T	A1375S	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1183	TSP1599	PLC1	YPL268W	1n	12071326	ND	0.55	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1267	TSP1599	PLC1	YPL268W	1n	12071326	ND	0.78	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES084	TSP961	PLP2	YOR281C	1n + dis IV, dis IX, dis X	14788898	ND	0.58	unknown	unknown	ND	ND	unknown		-	ND	ND	-	ND	ND	ND	ND
+ES970	TSP961	PLP2	YOR281C	1n + dis I	12301544	ND	0.53	unknown	unknown	ND	ND	unknown		-	ND	ND	v	ND	ND	ND	ND
+ES085	TSP962	PLP2	YOR281C	1n + dis VIII	12633969	ND	0.51	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1023	TSP961	PLP2	YOR281C	1n	12071326	ND	0.69	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES086	TSP962	PLP2	YOR281C	2n + monos III, monos XI, monos XIV	22374883	ND	0.47	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1087	TSP3515	PRP28	YDR243C	1n + dis III	12387946	ND	0.88	LUC7	YDL087C	G644A	R215K	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	x	ND	ND	v	v	v	v	ND
+ES281	TSP3515	PRP28	YDR243C	1n	12071326	ND	0.81	SMX2	YFL017W-A	15bp insertion	inframe insertion	unknown		ND	ND	-	v	ND	-	v	ND
+ES404	TSP3769	PSE1	YMR308C	2n + tris I, monos III, tris VI	24326411	1n	0.62	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES312	TSP3769	PSE1	YMR308C	1n + dis V, dis XVI	13596266	1n	0.37	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1013	TSP437	PXR1	YGR280C	1n	12071326	ND	0.74	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES1012	TSP436	PXR1	YGR280C	1n	12071326	ND	0.52	YSW1	YBR148W	del@A1111	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	x	x	-	ND
+ES1020	TSP863	RCL1	YOL010W	1n	12071326	ND	0.59	CMS1	YLR003C	del@T502	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	x	x	v	ND
+ES1162	TSP1648	RER2	YBR002C	1n	12071326	ND	0.78	PDP3	YLR455W	C794T	A265V	unknown		ND	ND	ND	x	x	x	v	ND
+ES1259	TSP1648	RER2	YBR002C	1n	12071326	ND	0.85	RPD3	YNL330C	del@G440	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	ND	v	v	ND
+ES1163	TSP1649	RER2	YBR002C	1n	12071326	ND	0.93	SIN3	YOL004W	C700T	Q234*	LOF	Suppressor mutation	ND	ND	ND	v	x	x	ND	ND
+ES1260	TSP1649	RER2	YBR002C	1n	12071326	ND	0.90	SIN3	YOL004W	ins@T3060	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	-	v	ND	ND
+ES372	TSP3496	RIA1	YNL163C	1n	12071326	ND	0.73	TIF6	YPR016C	C308T	A103V	GOF	GOF phenotype was confirmed in ES1084	ND	ND	-	v	-	-	v	ND
+ES278	TSP3496	RIA1	YNL163C	1n	12071326	ND	0.84	TIF6	YPR016C	G586T	G196C	GOF	GOF phenotype was confirmed in ES1084	ND	ND	-	v	-	-	v	ND
+ES1084	TSP3496	RIA1	YNL163C	1n	12071326	ND	0.90	TIF6	YPR016C	G586T	G196C	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	SL	v	x	ND
+ES139	TSP1664	RIB3	YDR487C	1n	12071326	ND	0.54	GPP1	YIL053W	del@T21	frameshift	LOF	Suppressor mutation	ND	ND	v	v	-	-	v	x
+ES1263	TSP1664	RIB3	YDR487C	1n	12071326	ND	0.44	MCH5	YOR306C	C1153T	P385S	GOF	Suppression by overexpression of the suppressor gene (small scale experiment not listed in this file)	ND	ND	ND	x	-	v	-	ND
+ES1264	TSP1665	RIB3	YDR487C	1n	12071326	ND	0.44	MCH5	YOR306C	G708C	L236F	GOF	Suppression by overexpression of the suppressor gene (small scale experiment not listed in this file)	ND	ND	ND	x	x	-	x	ND
+ES1302	ND	RIM2	YBR192W	1n + dis II	12884510	ND	0.48	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1210	TSP2526	RIM2	YBR192W	1n + dis II	12884510	ND	0.48	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1160	TSP1724	RPL18A	YOL120C	1n + dis III, dis XIV	13172279	ND	0.61	RPL18B	YNL301C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	3	ND	x	-	-	-	ND
+ES1256	TSP1719	RPL18A	YOL120C	1n + dis XIV	12855659	ND	1.02	RPL18B	YNL301C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"), Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	3	ND	v	SL	x	x	ND
+ES1257	TSP1724	RPL18A	YOL120C	1n + dis XIV	12855659	ND	0.89	RPL18B	YNL301C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"), Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	3	ND	v	SL	x	x	ND
+ES133	TSP1719	RPL18A	YOL120C	1n + dis XIV	12855659	ND	0.78	RPL18B	YNL301C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	3	ND	v	-	-	x	ND
+ES1205	TSP2582	RPL33A	YPL143W	1n	12071326	ND	0.63	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1296	TSP2582	RPL33A	YPL143W	1n	12071326	ND	0.45	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES1161	TSP1740	RPL33A	YPL143W	1n + dis I	12301544	ND	0.45	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1258	TSP1740	RPL33A	YPL143W	1n + dis I	12301544	ND	0.49	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1265	TSP1767	RPN9	YDR427W	1n + dis IV (partial)	12186326	1n	0.93	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES1266	TSP1770	RPN9	YDR427W	1n	12071326	ND	0.94	unknown	unknown	ND	ND	unknown		ND	ND	x	x	ND	ND	ND	ND
+ES1184	TSP1797	RPS30B	YOR182C	1n + dis VII	13162266	ND	0.82	unknown	unknown	ND	ND	unknown		-	ND	ND	-	ND	ND	ND	ND
+ES1268	TSP1797	RPS30B	YOR182C	1n + dis VII	13162266	ND	0.83	unknown	unknown	ND	ND	unknown		-	ND	ND	v	ND	ND	ND	ND
+ES950	TSP653	RRN11	YML043C	1n	12071326	ND	0.32	RDN1	RDN1	duplication	duplication	GOF	Suppressor mutation	ND	ND	ND	x	ND	x	ND	ND
+ES955	TSP585	RRN5	YLR141W	1n	12071326	ND	0.56	RDN1	RDN1	duplication	duplication	GOF	Suppressor mutation	ND	ND	ND	x	ND	x	ND	ND
+ES061	TSP586	RRN5	YLR141W	1n	12071326	ND	0.53	RDN1	RDN1	duplication	duplication	GOF	Suppressor mutation	ND	ND	-	v	ND	ND	ND	ND
+ES1000	TSP586	RRN5	YLR141W	1n	12071326	ND	0.53	RDN1	RDN1	duplication	duplication	GOF	Suppressor mutation	ND	ND	ND	x	ND	-	ND	ND
+ES1018	TSP749	RRN9	YMR270C	1n	12071326	ND	0.53	RDN1	RDN1	duplication	duplication	GOF	Suppressor mutation	ND	ND	ND	x	ND	x	ND	ND
+ES1262	TSP1845	RTS2	YOR077W	1n	12071326	ND	0.94	RVB2	YPL235W	A812G	D271G	unknown		ND	ND	ND	v	-	x	x	ND
+ES138	TSP1845	RTS2	YOR077W	1n	12071326	ND	0.72	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1132	TSP3932	SCC4	YER147C	1n	12071326	ND	0.94	SCC2	YDR180W	G2464A	E822K	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	SL	v	v	ND
+ES1131	ND	SCC4	YER147C	1n	12071326	ND	0.95	SCC2	YDR180W	G2464A	E822K	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	SL	v	x	ND
+ES1033	TSP3441	SCC4	YER147C	1n + dis I, dis IX	12741432	ND	0.75	UME6; SCC2	YDR207C; YDR180W	ins@A2165; duplication	frameshift; duplication	LOF; GOF	Suppressor mutation; Suppressor mutation	ND; x	ND	ND	-	-	-	v; v	ND
+ES1079	TSP3441	SCC4	YER147C	1n + dis IV, dis IX	14043147	ND	0.71	UME6; SCC2	YDR207C; YDR180W	del@A649; aneuploidy	frameshift; aneuploidy	LOF; GOF	Suppressor mutation; Suppressor mutation	ND; x	ND	ND	-	-	-	v; x	ND
+ES269	TSP3441	SCC4	YER147C	1n + dis I, dis IV, dis IX	14273365	ND	0.66	UME6; SCC2	YDR207C; YDR180W	ins@A649; aneuploidy	frameshift; aneuploidy	LOF; GOF	Suppressor mutation; Suppressor mutation	ND; x	ND	ND	-	-	-	v; x	ND
+ES387	TSP3578	SEC14	YMR079W	1n + dis I	12301544	1n	0.76	KES1	YPL145C	A350C	E117A	unknown		x	ND	ND	v	-	-	v	ND
+ES1095	TSP3578	SEC14	YMR079W	1n	12071326	1n	0.60	PCT1	YGR202C	del@G227	frameshift	LOF	Suppressor mutation	ND	ND	ND	v	-	v	v	ND
+ES295	TSP3578	SEC14	YMR079W	1n	12071326	1n	0.69	PCT1	YGR202C	ins@A80	frameshift	LOF	Suppressor mutation	ND	ND	-	v	-	v	v	ND
+ES1043	TSP3578	SEC14	YMR079W	1n + dis I, dis VI	12571705	1n	0.65	PCT1	YGR202C	del@A812-A813	frameshift	LOF	Suppressor mutation	x	ND	ND	v	?	?	v	ND
+ES1080	TSP3463	SEC65	YML105C	2n + monos X	23396901	ND	0.38	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1141	TSP3967	SGV1	YPR161C	1n	12071326	ND	0.60	EAF3	YPR023C	G293C	R98P	unknown		ND	ND	ND	v	-	-	-	ND
+ES337	TSP3967	SGV1	YPR161C	1n	12071326	ND	0.81	SPT5	YML010W	C2246G	P749R	unknown		ND	ND	-	v	ND	-	-	ND
+ES1316	TSP2986	SHR3	YDL212W	1n	12071326	ND	0.77	ASI3	YNL008C	C1776A	Y592*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	?	ND
+ES1311	TSP2687	SHR3	YDL212W	1n	12071326	ND	0.77	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES1228	TSP2986	SHR3	YDL212W	1n	12071326	ND	0.82	unknown	unknown	ND	ND	unknown		ND	ND	-	v	ND	ND	ND	ND
+ES319	TSP3833	SLN1	YIL147C	1n	12071326	ND	1.05	PBS2	YJL128C	G1301A	C434Y	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES416	TSP3833	SLN1	YIL147C	1n	12071326	ND	0.54	SSK1	YLR006C	C1801T	Q601*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	x	v
+ES1122	TSP3833	SLN1	YIL147C	1n	12071326	ND	1.06	SSK1; SSK2	YLR006C; YNR031C	G487T; G4463A	E163*; C1488Y	LOF; unknown	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v; v	v; v	x; x	ND
+ES1067	ND	SLN1	YIL147C	1n	12071326	ND	0.52	SSK2	YNR031C	G4670C	W1557S	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	-	x	ND
+ES1031	TSP3381	SMC5	YOL034W	1n + dis I	12301544	ND	0.58	RAD51	YER095W	G835T	V279F	unknown		x	ND	ND	x	-	-	-	ND
+ES973	TSP972	SOG2	YOR353C	1n	12071326	ND	1.07	SSD1	YDR293C	A1072T	R358*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES974	ND	SOG2	YOR353C	1n	12071326	ND	1.04	SSD1	YDR293C	C2697A	Y899*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES089	TSP972	SOG2	YOR353C	1n	12071326	ND	0.90	SSD1	YDR293C	30bp deletion	inframe deletion	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES1064	TSP3968	SPC105	YGL093W	1n	12071326	ND	0.40	RNR1	YER070W	G851C	R284P	LOF	Suppressor mutation in ES1046	ND	ND	ND	v	-	-	-	ND
+ES1046	TSP3608	SPC105	YGL093W	1n + dis IX	12511214	ND	0.34	RNR1	YER070W	del@T1052-C1053	frameshift	LOF	Suppressor mutation	x	ND	ND	x	-	-	-	ND
+ES1101	TSP3608	SPC105	YGL093W	1n	12071326	ND	0.45	SLD2	YKL108W	C60A	F20L	unknown		ND	ND	ND	x	-	-	v	ND
+ES1142	TSP3968	SPC105	YGL093W	1n	12071326	ND	0.37	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES1040	TSP3548	SRP102	YKL154W	2n + monos X	23396901	1n	0.53	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES288	TSP3548	SRP102	YKL154W	2n + monos X	23396901	1n	0.45	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES381	TSP3548	SRP102	YKL154W	2n + monos X	23396901	1n	0.50	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES447	TSP3548	SRP102	YKL154W	2n + monos X	23396901	1n	0.45	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1279	TSP1955	SRP14	YDL092W	2n + monos X	23396901	2n + tris V	0.46	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES167	TSP1955	SRP14	YDL092W	2n + monos I, tris VII, monos IX	24563486	2n + tris V	0.28	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1192	TSP1955	SRP14	YDL092W	2n + tris V, monos X	23973775	2n + tris V	0.49	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES168	TSP1957	SRP21	YKL122C	2n + monos X	23396901	1n	0.39	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES169	TSP1957	SRP21	YKL122C	2n + monos X	23396901	1n	0.37	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1314	TSP2696	SRP21	YKL122C	2n + monos X	23396901	ND	0.49	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES216	TSP2696	SRP21	YKL122C	2n + monos X	23396901	ND	0.33	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES217	TSP2696	SRP21	YKL122C	2n + monos X	23396901	ND	0.26	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES170	TSP1957	SRP21	YKL122C	2n + tris IX, monos X	23836789	1n	0.43	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1089	TSP3523	SRP54	YPR088C	2n + monos X	23396901	ND	0.44	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1037	TSP3523	SRP54	YPR088C	2n + tris V, monos X	23973775	ND	0.60	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES080	TSP1048	SRP68	YPL243W	2n + monos X	23396901	ND	0.48	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1021	TSP1048	SRP68	YPL243W	2n + monos X, monos XIV, monos XV	21521277	ND	0.49	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES082	TSP1051	SRP68	YPL243W	2n + monos X	23396901	1n	0.41	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1022	TSP1051	SRP68	YPL243W	2n + tris VIII, monos X	23959544	1n	0.36	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES969	TSP1048	SRP68	YPL243W	1n + dis IX	12511214	ND	0.76	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES050	TSP1018	SRP72	YPL210C	2n + monos VI, monos VIII, monos X, monos XIV, monos XV, monos XVI	19740407	1n	0.67	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1172	TSP1018	SRP72	YPL210C	2n + monos X	23396901	1n	0.71	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES051	TSP1019	SRP72	YPL210C	2n + monos X	23396901	ND	0.56	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES980	TSP1019	SRP72	YPL210C	2n + monos X	23396901	ND	0.45	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES100	TSP1018	SRP72	YPL210C	2n + tris II, tris IV, tris V, tris VII, tris IX, tris XI, tris XII, tris XIII	31264895	1n	0.59	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES101	TSP1018	SRP72	YPL210C	2n + monos X, tris XVI	24344967	1n	0.44	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES103	TSP1019	SRP72	YPL210C	2n + tris IV, monos X	24928834	ND	0.41	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1072	TSP3336	STN1	YDR082W	1n + dis XIV (partial)	12633326	ND	0.83	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES274	TSP3482	STU1	YBL034C	1n	12071326	ND	0.99	STU2	YLR045C	T209A	V70D	GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	v	v	SL	x	v	ND
+ES371	TSP3482	STU1	YBL034C	1n	12071326	ND	1.00	STU2	YLR045C	G1022T	W341L	GOF	GOF phenotype was confirmed in ES274	ND	ND	v	v	-	-	v	ND
+ES1082	TSP3482	STU1	YBL034C	1n	12071326	ND	0.84	TUB2	YFL037W	A319G	T107A	unknown		ND	ND	ND	v	ND	v	v	ND
+ES1034	TSP3482	STU1	YBL034C	1n + dis III, dis V	12964820	ND	0.87	TUB2	YFL037W	A1202G	E401G	unknown		x	ND	ND	-	ND	-	v	ND
+ES331	TSP3943	STU1	YBL034C	1n + dis XI	12738142	ND	0.89	TUB2	YFL037W	C446T	T149M	unknown		x	ND	v	v	ND	-	v	ND
+ES1133	TSP3943	STU1	YBL034C	1n + dis IX	12511214	ND	0.72	TUB2	YFL037W	G7A	E3K	unknown		x	ND	ND	x	ND	v	v	ND
+ES218	TSP2704	SUA5	YGL169W	1n + dis II	12884510	ND	0.33	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES219	TSP2704	SUA5	YGL169W	1n + dis II, dis VIII, dis IX, dis XI	14553857	ND	0.33	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES1226	TSP2705	SUA5	YGL169W	1n + dis II, dis VIII, dis IX	13887041	ND	0.49	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES202	TSP2837	SUA5	YGL169W	1n + dis II, dis IX	13324398	1n	0.35	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES203	TSP2837	SUA5	YGL169W	1n + dis II, dis IX	13324398	1n	0.39	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES307	TSP3661	SUB2	YDL084W	2n + tris XI	24809468	1n	0.33	unknown	unknown	ND	ND	unknown		-	ND	ND	-	ND	ND	ND	ND
+ES1051	TSP3661	SUB2	YDL084W	1n	12071326	1n	0.66	unknown	unknown	ND	ND	unknown		ND	ND	ND	v	ND	ND	ND	ND
+ES1109	TSP3644	SWD2	YKL018W	1n	12071326	ND	0.71	BUR2	YLR226W	del@A533	frameshift	LOF	Suppressor mutation	ND	ND	ND	x	-	x	v	ND
+ES1049	TSP3644	SWD2	YKL018W	1n	12071326	ND	0.85	SGV1	YPR161C	G644A	G215D	unknown		ND	ND	ND	v	?	x	v	ND
+ES1284	TSP1974	SWI1	YPL016W	1n	12071326	ND	0.56	SRB8	YCR081W	C1857A	Y619*	LOF	Suppressor mutation	ND	ND	ND	x	-	-	x	ND
+ES1198	TSP1974	SWI1	YPL016W	1n	12071326	ND	0.61	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES007	TSP505	TAO3	YIL129C	1n	12071326	ND	0.98	SSD1	YDR293C	14bp deletion	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES009	TSP510	TAO3	YIL129C	1n	12071326	ND	0.98	SSD1	YDR293C	C196T	Q66*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES010	TSP510	TAO3	YIL129C	1n	12071326	ND	0.99	SSD1	YDR293C	C2272T	Q758*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES006	TSP505	TAO3	YIL129C	1n	12071326	ND	0.99	SSD1	YDR293C	G3388T	E1130*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	-	v	v	v	v	v
+ES004	TSP501	TAO3	YIL129C	1n	12071326	ND	0.98	SSD1	YDR293C	ins@G3445	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	-	v	v	v	v	v
+ES005	TSP505	TAO3	YIL129C	1n	12071326	ND	0.99	SSD1	YDR293C	C2138A	A713D	LOF	Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	-	v	x	x	v	v
+ES001	TSP500	TAO3	YIL129C	1n	12071326	ND	1.06	SSD1	YDR293C	C509G, del@A511	A170G, frameshift	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES008	TSP505	TAO3	YIL129C	1n	12071326	ND	1.03	SSD1	YDR293C	G1819T	E607*	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES315	TSP3791	TEM1	YML064C	2n + monos III	23826032	1n	0.58	CDC14	YFR028C	C29A	T10K	unknown		ND	ND	ND	-	ND	ND	v	ND
+ES1119	TSP3791	TEM1	YML064C	1n + dis XI	12738142	1n	ND	unknown	unknown	ND	ND	unknown		x	ND	ND	v	ND	ND	ND	ND
+ES180	TSP1981	TEN1	YLR010C	2n + monos I	23912434	ND	0.72	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES1297	ND	TEN1	YLR010C	1n + dis XIV (partial)	12594326	ND	0.62	unknown	unknown	ND	ND	unknown		x	ND	ND	x	ND	ND	ND	ND
+ES1234	TSP2730	TLG1	YDR468C	1n	12071326	ND	0.97	GOS1	YHL031C	C562A	P188T	unknown		ND	ND	ND	v	ND	v	v	ND
+ES324	TSP3912	TOR2	YKL203C	1n	12071326	ND	0.86	LCB1	YMR296C	C224G	P75R	GOF	Same residue mutated in 2 independent suppressor isolates	ND	ND	-	v	-	x	v	ND
+ES257	TSP3340	TOR2	YKL203C	1n	12071326	ND	0.77	LCB1	YMR296C	C224T	P75L	GOF	Same residue mutated in 2 independent suppressor isolates	ND	ND	-	v	x	x	v	ND
+ES1129	TSP3912	TOR2	YKL203C	1n	12071326	ND	0.45	ORM2	YLR350W	C285A	Y95*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	x	v	x	-	ND
+ES1059	TSP3912	TOR2	YKL203C	1n	12071326	ND	0.65	ORM2	YLR350W	C560A	T187K	LOF	LOF phenotype was confirmed in ES1129	ND	ND	ND	v	-	-	v	ND
+ES422	TSP3912	TOR2	YKL203C	1n	12071326	ND	0.81	YPK2	YMR104C	A716G	D239G	unknown		ND	ND	-	v	x	x	v	ND
+ES1189	TSP2030	TRM112	YNR046W	1n	12071326	ND	0.49	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES164	TSP2043	TRM5	YHR070W	1n + dis I, dis II, dis VIII	13677371	ND	0.07	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES165	TSP2043	TRM5	YHR070W	1n + dis I, dis II	13114728	ND	0.07	unknown	unknown	ND	ND	unknown		x	ND	ND	-	ND	ND	ND	ND
+ES1197	TSP2063	TRR1	YDR353W	1n + dis VII	13162266	ND	0.76	TRX2	YGR209C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	114	ND	x	ND	ND	ND	ND
+ES434	TSP3979	TSC11	YER093C	1n	12071326	ND	0.63	ORM2	YLR350W	C596G	T199R	unknown		ND	ND	-	v	-	-	v	ND
+ES1118	TSP3790	TSR4	YOL022C	1n	12071326	ND	1.02	RPS2	YGL123W	G383C	G128A	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	x	ND
+ES409	TSP3790	TSR4	YOL022C	1n	12071326	ND	1.06	RPS2	YGL123W	G383C	G128A	LOF	LOF phenotype was confirmed in ES1118	ND	ND	v	v	-	v	x	ND
+ES966	TSP466	ULP2	YIL031W	1n	12071326	ND	0.96	AOS1	YPR180W	C80A	A27E	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	x	ND
+ES043	TSP467	ULP2	YIL031W	1n + dis I	12301544	ND	0.90	UBA2	YDR390C	C1112A	P371Q	unknown		-	ND	ND	v	ND	v	v	ND
+ES052	TSP467	ULP2	YIL031W	1n + dis I	12301544	ND	1.00	ULP1	YPL020C	A166T, del@G167	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	-	ND	ND	v	v	v	v	ND
+ES1017	TSP741	ULP2	YIL031W	1n + dis I	12301544	ND	0.88	unknown	unknown	ND	ND	unknown		-	ND	ND	x	ND	ND	ND	ND
+ES967	TSP741	ULP2	YIL031W	1n + dis I	12301544	ND	1.04	unknown	unknown	ND	ND	unknown		-	ND	ND	-	ND	ND	ND	ND
+ES992	TSP467	ULP2	YIL031W	1n + dis IX	12511214	ND	0.98	WSS1	YHR134W	ins@A319	frameshift	LOF	Suppressor mutation	-	ND	ND	x	x	x	?	ND
+ES943	TSP201	UTR5	YEL035C	1n	12071326	ND	1.05	MOT3	YMR070W	26bp insertion	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "SuppressorCloning")	ND	ND	v	x	ND	ND	ND	v
+ES984	TSP201	UTR5	YEL035C	1n	12071326	ND	1.04	MOT3	YMR070W	26bp deletion	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES020	TSP202	UTR5	YEL035C	1n	12071326	ND	1.04	MOT3	YMR070W	A199T	K67*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES027	TSP201	UTR5	YEL035C	1n	12071326	ND	1.03	MOT3	YMR070W	WT	WT	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES017	TSP202	UTR5	YEL035C	1n	12071326	ND	0.94	MOT3	YMR070W	WT	WT	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES018	TSP202	UTR5	YEL035C	1n	12071326	ND	1.05	ROX1	YPR065W	C246A, A251G	Y82*, Y84C	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES985	TSP202	UTR5	YEL035C	1n	12071326	ND	1.00	ROX1	YPR065W	del@C364	frameshift	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	ND	v	v	v	v	v
+ES028	TSP201	UTR5	YEL035C	1n	12071326	ND	1.08	ROX1	YPR065W	G192C	W64C	LOF	Suppression by a suppressor gene LOF mutant (columns "LOFsuppression" and "SuppressorCloning")	ND	ND	v	v	v	v	v	v
+ES019	TSP202	UTR5	YEL035C	2n	24142652	ND	0.78	unknown	unknown	ND	ND	unknown		ND	ND	ND	-	ND	ND	ND	ND
+ES994	ND	VHT1	YGR065C	1n	12071326	ND	0.32	FAS1	YKL182W	T1468G	W490G	unknown		ND	ND	ND	ND	ND	?	-	ND
+ES995	TSP392	VHT1	YGR065C	1n	12071326	ND	0.72	unknown	unknown	ND	ND	unknown		ND	ND	ND	x	ND	ND	ND	ND
+ES1190	TSP2122	VRG4	YGL225W	1n	12071326	ND	0.63	HVG1	YER039C	YER039C-A_T217G	YER039C-A_HVG1 fusion	GOF	Suppressor mutation	ND	ND	v	v	ND	ND	ND	ND
+ES1277	ND	YFH1	YDL120W	1n + dis III	12387946	ND	0.82	AFT1	YGL071W	del@G582	frameshift	LOF	Suppressor mutation	-	ND	ND	x	ND	-	x	ND
+ES1145	TSP3374	YIP1	YGR172C	1n	12071326	ND	1.07	YIP4; YIP5	YGL198W; YGL161C	C449A; G775C	S150Y; A259P	GOF; GOF	Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"); Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	SL; SL	v; v	v; v	ND
+ES1282	TSP2145	YPD1	YDL235C	1n	12071326	ND	1.04	HOG1	YLR113W	G316T	D106Y	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES1194	TSP2145	YPD1	YDL235C	1n	12071326	ND	0.46	PBS2	YJL128C	C1239A	C413*	LOF	Suppressor mutation, Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES1281	TSP2142	YPD1	YDL235C	1n	12071326	ND	0.99	PBS2	YJL128C	T137C	I46T	LOF	Suppression by a suppressor gene LOF mutant (column "LOFsuppression")	ND	ND	ND	v	v	v	v	ND
+ES961	TSP429	YPP1	YGR198W	1n	12071326	ND	0.35	unknown	unknown	ND	ND	unknown		ND	ND	ND	ND	ND	ND	ND	ND
+ES1317	TSP2894	YRA1	YDR381W	1n + dis XI, dis XVI	13686208	ND	0.63	YRA2; MEX67	YKL214C; YPL169C	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"); Suppressor mutation	v; x	45	ND	x	-	-	-	ND
+ES1230	TSP2894	YRA1	YDR381W	1n + dis XI, dis XVI	13686208	ND	0.79	YRA2; MEX67	YKL214C; YPL169C	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"); Suppressor mutation	v; x	45	ND	x	-	-	v; x	ND
+ES1318	TSP2810	YRA1	YDR381W	1n + dis XI, dis XVI (partial)	13235142	ND	0.64	YRA2; MEX67	YKL214C; YPL169C	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"); Suppressor mutation	v; x	45	ND	-	-	-	x; v	ND
+ES1229	TSP2891	YRA1	YDR381W	1n + dis I, dis III, dis XI, dis XVI (partial)	14020046	1n	0.75	YRA2; MEX67	YKL214C; YPL169C	aneuploidy; aneuploidy	aneuploidy; aneuploidy	GOF; GOF	Suppressor mutation, Suppression by overexpression of the suppressor gene (column "OverexpressionScreen"); Suppressor mutation	v; x	45	ND	x	-	-	x; x	ND
+ES1199	TSP2163	YRB2	YIL063C	1n + dis XII (partial)	12232326	ND	0.87	GSP1	YLR293C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"), Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	12	ND	x	SL	x	x	ND
+ES1286	TSP2163	YRB2	YIL063C	1n + dis XII	13149503	ND	0.86	GSP1	YLR293C	aneuploidy	aneuploidy	GOF	Suppressor mutation, Lack of suppression with a suppressor gene LOF mutant (column "LOFsuppression"), Suppression by overexpression of the suppressor gene (column "OverexpressionScreen")	v	12	ND	x	SL	x	x	ND

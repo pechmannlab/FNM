@@ -1,0 +1,7 @@
+name	gene	type	size
+YBR193C	MED8	other	4
+YJL128C	PBS2	other	4
+YKL038W	RGT1	other	4
+YLR295C	ATP14	other	4
+YNL053W	MSG5	other	4
+YNR031C	SSK2	other	4

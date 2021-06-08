@@ -1,0 +1,4 @@
+name	gene	type	size
+YCR048W	ARE1	other	4
+YLR212C	TUB4	other	4
+YOR334W	MRS2	other	4

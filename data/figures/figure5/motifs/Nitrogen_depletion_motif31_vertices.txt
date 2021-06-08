@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR092W	UBC13	other	4
+YLR032W	RAD5	other	4
+YOR346W	REV1	other	4

@@ -1,0 +1,7 @@
+name	gene	type	size
+YDL225W	SHS1	other	4
+YHR033W	YHR033W	other	4
+YJR092W	BUD4	other	4
+YNL116W	DMA2	other	4
+YOR231W	MKK1	other	4
+YPL022W	RAD1	other	4

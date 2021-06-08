@@ -1,0 +1,5 @@
+name	gene	type	size
+YHR024C	MAS2	other	4
+YIL066C	RNR3	other	4
+YKL011C	CCE1	other	4
+YLR172C	DPH5	other	4

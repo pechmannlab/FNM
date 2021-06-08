@@ -1,0 +1,5 @@
+name	gene	type	size
+YIL073C	SPO22	other	4
+YJR118C	ILM1	other	4
+YMR243C	ZRC1	other	4
+YOR054C	VHS3	other	4

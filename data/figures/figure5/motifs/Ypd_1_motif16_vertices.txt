@@ -1,0 +1,4 @@
+name	gene	type	size
+YCR099C	YCR099C	other	4
+YDR168W	CDC37	other	4
+YJL165C	HAL5	other	4

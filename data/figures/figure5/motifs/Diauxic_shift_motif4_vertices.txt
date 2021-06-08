@@ -1,0 +1,4 @@
+name	gene	type	size
+YGR131W	FHN1	other	4
+YNL172W	APC1	other	4
+YPR171W	BSP1	other	4

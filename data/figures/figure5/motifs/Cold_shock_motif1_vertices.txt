@@ -1,0 +1,4 @@
+name	gene	type	size
+YGL045W	RIM8	other	4
+YLR417W	VPS36	other	4
+YPL065W	VPS28	other	4

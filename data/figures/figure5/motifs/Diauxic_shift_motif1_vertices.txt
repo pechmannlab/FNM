@@ -1,0 +1,4 @@
+name	gene	type	size
+YHL003C	LAG1	other	4
+YKL008C	LAC1	other	4
+YMR298W	LIP1	other	4

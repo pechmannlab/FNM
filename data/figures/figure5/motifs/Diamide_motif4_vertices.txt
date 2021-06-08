@@ -1,0 +1,4 @@
+name	gene	type	size
+YER038C	KRE29	other	4
+YGR042W	YGR042W	other	4
+YIR002C	MPH1	other	4

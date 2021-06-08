@@ -1,0 +1,6 @@
+name	gene	type	size
+YDR478W	SNM1	other	4
+YLR215C	CDC123	other	4
+YNL116W	DMA2	other	4
+YOR393W	ERR1	other	4
+YPL022W	RAD1	other	4

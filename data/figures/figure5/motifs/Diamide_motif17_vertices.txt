@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR179C	FZO1	other	4
+YOR124C	UBP2	other	4
+YPR030W	CSR2	other	4

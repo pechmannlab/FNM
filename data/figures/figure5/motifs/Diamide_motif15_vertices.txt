@@ -1,0 +1,4 @@
+name	gene	type	size
+YJR041C	URB2	other	4
+YKR024C	DBP7	other	4
+YPR131C	NAT3	other	4

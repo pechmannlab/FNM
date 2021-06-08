@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR527W	RBA50	other	4
+YLR243W	GPN3	other	4
+YOR262W	GPN2	other	4

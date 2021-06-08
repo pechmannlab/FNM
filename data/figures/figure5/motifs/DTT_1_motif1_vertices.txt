@@ -1,0 +1,6 @@
+name	gene	type	size
+YDL169C	UGX2	other	4
+YGR131W	FHN1	other	4
+YMR079W	SEC14	other	4
+YNL172W	APC1	other	4
+YPR171W	BSP1	other	4

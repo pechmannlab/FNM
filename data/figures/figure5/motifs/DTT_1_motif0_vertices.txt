@@ -1,0 +1,4 @@
+name	gene	type	size
+YBL036C	YBL036C	other	4
+YDR044W	HEM13	other	4
+YGR087C	PDC6	other	4

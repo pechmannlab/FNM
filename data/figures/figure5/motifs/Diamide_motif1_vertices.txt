@@ -1,0 +1,6 @@
+name	gene	type	size
+YBL074C	AAR2	other	4
+YDL214C	PRR2	other	4
+YHL018W	YHL018W	other	4
+YIL107C	PFK26	other	4
+YLR089C	ALT1	other	4

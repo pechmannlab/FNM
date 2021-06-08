@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL200C	MGT1	other	4
+YGR184C	UBR1	other	4
+YKL056C	TMA19	other	4
+YOR236W	DFR1	other	4

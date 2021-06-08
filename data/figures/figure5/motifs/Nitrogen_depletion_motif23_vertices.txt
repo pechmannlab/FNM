@@ -1,0 +1,4 @@
+name	gene	type	size
+YAL009W	SPO7	other	4
+YMR165C	PAH1	other	4
+YOL001W	PHO80	other	4

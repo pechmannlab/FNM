@@ -1,0 +1,5 @@
+name	gene	type	size
+YGL121C	GPG1	other	4
+YJR053W	BFA1	other	4
+YLR278C	YLR278C	other	4
+YOR058C	ASE1	other	4

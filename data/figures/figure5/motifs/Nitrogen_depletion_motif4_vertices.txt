@@ -1,0 +1,7 @@
+name	gene	type	size
+YHR001W	OSH7	other	4
+YKL002W	DID4	other	4
+YKL041W	VPS24	other	4
+YKR003W	OSH6	other	4
+YOR275C	RIM20	other	4
+YPR173C	VPS4	other	4

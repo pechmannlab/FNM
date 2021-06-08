@@ -1,0 +1,6 @@
+name	gene	type	size
+YGL006W	PMC1	other	4
+YGR105W	VMA21	other	4
+YJL105W	SET4	other	4
+YLL040C	VPS13	other	4
+YPR036W	VMA13	other	4

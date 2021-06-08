@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR139C	RUB1	other	4
+YIL046W	MET30	other	4
+YNL281W	HCH1	other	4

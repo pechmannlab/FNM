@@ -1,0 +1,5 @@
+name	gene	type	size
+YGL043W	DST1	other	4
+YKL160W	ELF1	other	4
+YOL005C	RPB11	other	4
+YPR133C	SPN1	other	4

@@ -1,0 +1,4 @@
+name	gene	type	size
+YKL028W	TFA1	other	4
+YLR185W	RPL37A	other	4
+YPR025C	CCL1	other	4

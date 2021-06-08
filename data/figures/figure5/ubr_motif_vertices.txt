@@ -1,0 +1,7 @@
+name	gene	type	size
+YBL041W	PRE7	other	4
+YDL020C	RPN4	other	4
+YGL058W	RAD6	other	4
+YGR184C	UBR1	other	4
+YLR024C	UBR2	other	4
+YOR236W	DFR1	other	4

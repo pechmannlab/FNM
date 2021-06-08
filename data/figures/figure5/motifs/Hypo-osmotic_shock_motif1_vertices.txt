@@ -1,0 +1,4 @@
+name	gene	type	size
+YNL217W	YNL217W	other	4
+YOL132W	GAS4	other	4
+YOR099W	KTR1	other	4

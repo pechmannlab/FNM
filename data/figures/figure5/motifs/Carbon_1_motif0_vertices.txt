@@ -1,0 +1,4 @@
+name	gene	type	size
+YGL167C	PMR1	other	4
+YGR231C	PHB2	other	4
+YMR089C	YTA12	other	4

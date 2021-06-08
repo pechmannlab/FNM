@@ -1,0 +1,4 @@
+name	gene	type	size
+YJR134C	SGM1	other	4
+YOR058C	ASE1	other	4
+YOR216C	RUD3	other	4

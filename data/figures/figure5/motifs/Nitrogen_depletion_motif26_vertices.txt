@@ -1,0 +1,6 @@
+name	gene	type	size
+YBR175W	SWD3	other	4
+YJR070C	LIA1	other	4
+YMR041C	ARA2	other	4
+YOL045W	PSK2	other	4
+YOR184W	SER1	other	4

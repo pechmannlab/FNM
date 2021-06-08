@@ -1,0 +1,5 @@
+name	gene	type	size
+YDR361C	BCP1	other	4
+YER117W	RPL23B	other	4
+YMR021C	MAC1	other	4
+YPL208W	RKM1	other	4

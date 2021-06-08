@@ -1,0 +1,5 @@
+name	gene	type	size
+YBL103C	RTG3	other	4
+YHR120W	MSH1	other	4
+YIR023W	DAL81	other	4
+YPR155C	NCA2	other	4

@@ -1,0 +1,5 @@
+name	gene	type	size
+YAR003W	SWD1	other	4
+YDR069C	DOA4	other	4
+YKL041W	VPS24	other	4
+YPR173C	VPS4	other	4

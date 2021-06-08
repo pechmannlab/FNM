@@ -1,0 +1,4 @@
+name	gene	type	size
+YLR452C	SST2	other	4
+YMR004W	MVP1	other	4
+YNL327W	EGT2	other	4

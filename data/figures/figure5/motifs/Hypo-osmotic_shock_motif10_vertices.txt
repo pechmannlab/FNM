@@ -1,0 +1,5 @@
+name	gene	type	size
+YDR517W	GRH1	other	4
+YIL051C	MMF1	other	4
+YNL049C	SFB2	other	4
+YPL085W	SEC16	other	4

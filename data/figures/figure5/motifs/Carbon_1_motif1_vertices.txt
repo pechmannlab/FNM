@@ -1,0 +1,4 @@
+name	gene	type	size
+YHR111W	UBA4	other	4
+YKL048C	ELM1	other	4
+YML110C	COQ5	other	4

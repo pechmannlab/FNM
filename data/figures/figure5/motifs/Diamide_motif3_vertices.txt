@@ -1,0 +1,4 @@
+name	gene	type	size
+YGR099W	TEL2	other	4
+YHR034C	PIH1	other	4
+YKL033W	TTI1	other	4

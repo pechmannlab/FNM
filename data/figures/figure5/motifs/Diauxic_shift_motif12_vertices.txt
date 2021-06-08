@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL165W	CDC36	other	4
+YGR195W	SKI6	other	4
+YKL002W	DID4	other	4
+YPR173C	VPS4	other	4

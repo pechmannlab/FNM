@@ -1,0 +1,4 @@
+name	gene	type	size
+YBL088C	TEL1	other	4
+YNL215W	IES2	other	4
+YOR189W	IES4	other	4

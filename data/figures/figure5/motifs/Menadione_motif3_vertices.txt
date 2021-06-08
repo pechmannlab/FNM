@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL059C	RAD59	other	4
+YDR306C	YDR306C	other	4
+YKL127W	PGM1	other	4
+YMR105C	PGM2	other	4

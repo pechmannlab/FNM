@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR177C	EHT1	other	4
+YGR082W	TOM20	other	4
+YML013W	UBX2	other	4

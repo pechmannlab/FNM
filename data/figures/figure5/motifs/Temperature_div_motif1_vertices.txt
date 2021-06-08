@@ -1,0 +1,5 @@
+name	gene	type	size
+YDR279W	RNH202	other	4
+YEL060C	PRB1	other	4
+YKR028W	SAP190	other	4
+YNL106C	INP52	other	4

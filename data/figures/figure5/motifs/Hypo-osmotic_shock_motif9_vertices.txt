@@ -1,0 +1,5 @@
+name	gene	type	size
+YEL043W	YEL043W	other	4
+YFL054C	YFL054C	other	4
+YKL142W	MRP8	other	4
+YML006C	GIS4	other	4

@@ -1,0 +1,6 @@
+name	gene	type	size
+YBR267W	REI1	other	4
+YIR026C	YVH1	other	4
+YKL186C	MTR2	other	4
+YOL063C	CRT10	other	4
+YPR164W	MMS1	other	4

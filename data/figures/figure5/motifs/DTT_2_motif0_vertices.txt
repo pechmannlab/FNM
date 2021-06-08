@@ -1,0 +1,4 @@
+name	gene	type	size
+YJR092W	BUD4	other	4
+YPL242C	IQG1	other	4
+YPR171W	BSP1	other	4

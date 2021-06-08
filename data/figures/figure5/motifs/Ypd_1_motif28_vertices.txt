@@ -1,0 +1,7 @@
+name	gene	type	size
+YBL041W	PRE7	other	4
+YCR073C	SSK22	other	4
+YDR524C	AGE1	other	4
+YGL237C	HAP2	other	4
+YJL128C	PBS2	other	4
+YNR031C	SSK2	other	4

@@ -1,0 +1,4 @@
+name	gene	type	size
+YML058W	SML1	other	4
+YNL172W	APC1	other	4
+YPR083W	MDM36	other	4

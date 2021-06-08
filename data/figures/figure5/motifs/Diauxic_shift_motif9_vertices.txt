@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR036C	CSG2	other	4
+YMR058W	FET3	other	4
+YPL227C	ALG5	other	4

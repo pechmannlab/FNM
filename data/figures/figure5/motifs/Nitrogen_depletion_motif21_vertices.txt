@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR108W	TRS85	other	4
+YIL078W	THS1	other	4
+YPR078C	YPR078C	other	4

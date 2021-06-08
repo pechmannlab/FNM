@@ -1,0 +1,5 @@
+name	gene	type	size
+YBR041W	FAT1	other	4
+YHR072W	ERG7	other	4
+YHR190W	ERG9	other	4
+YLR100W	ERG27	other	4

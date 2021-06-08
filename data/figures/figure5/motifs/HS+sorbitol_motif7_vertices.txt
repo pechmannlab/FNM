@@ -1,0 +1,7 @@
+name	gene	type	size
+YEL024W	RIP1	other	4
+YJR065C	ARP3	other	4
+YKR065C	PAM17	other	4
+YLR203C	MSS51	other	4
+YNL052W	COX5A	other	4
+YPL063W	TIM50	other	4

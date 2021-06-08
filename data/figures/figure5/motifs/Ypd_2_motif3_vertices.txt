@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR092W	UBC13	other	4
+YJL003W	COX16	other	4
+YMR256C	COX7	other	4

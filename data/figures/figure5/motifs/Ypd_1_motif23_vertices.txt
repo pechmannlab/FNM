@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR074W	TPS2	other	4
+YER019C-A	SBH2	other	4
+YOR103C	OST2	other	4

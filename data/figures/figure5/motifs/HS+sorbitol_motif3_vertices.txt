@@ -1,0 +1,6 @@
+name	gene	type	size
+YAL029C	MYO4	other	4
+YBR130C	SHE3	other	4
+YGL213C	SKI8	other	4
+YJL136C	RPS21B	other	4
+YKL124W	SSH4	other	4

@@ -1,0 +1,5 @@
+name	gene	type	size
+YHR194W	MDM31	other	4
+YMR256C	COX7	other	4
+YOR147W	MDM32	other	4
+YPL117C	IDI1	other	4

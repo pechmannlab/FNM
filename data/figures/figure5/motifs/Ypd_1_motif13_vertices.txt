@@ -1,0 +1,4 @@
+name	gene	type	size
+YLR360W	VPS38	other	4
+YNL194C	YNL194C	other	4
+YPR079W	MRL1	other	4

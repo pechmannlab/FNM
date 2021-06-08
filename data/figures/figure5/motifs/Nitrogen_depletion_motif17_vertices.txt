@@ -1,0 +1,4 @@
+name	gene	type	size
+YCR092C	MSH3	other	4
+YML095C	RAD10	other	4
+YNR058W	BIO3	other	4

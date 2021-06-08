@@ -1,0 +1,5 @@
+name	gene	type	size
+YAL043C	PTA1	other	4
+YDR301W	CFT1	other	4
+YGR047C	TFC4	other	4
+YNR003C	RPC34	other	4

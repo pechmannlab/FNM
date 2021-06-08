@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR079C-A	TFB5	other	4
+YGR118W	RPS23A	other	4
+YLR192C	HCR1	other	4

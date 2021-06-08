@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR267W	REI1	other	4
+YDR288W	NSE3	other	4
+YHR073W	OSH3	other	4

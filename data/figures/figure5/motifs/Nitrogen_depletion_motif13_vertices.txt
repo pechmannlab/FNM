@@ -1,0 +1,4 @@
+name	gene	type	size
+YAL002W	VPS8	other	4
+YER136W	GDI1	other	4
+YKR014C	YPT52	other	4

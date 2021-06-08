@@ -1,0 +1,4 @@
+name	gene	type	size
+YDL175C	AIR2	other	4
+YHR069C	RRP4	other	4
+YNR024W	MPP6	other	4

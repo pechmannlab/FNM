@@ -1,0 +1,4 @@
+name	gene	type	size
+YFL033C	RIM15	other	4
+YMR165C	PAH1	other	4
+YOL001W	PHO80	other	4

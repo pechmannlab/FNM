@@ -1,0 +1,5 @@
+name	gene	type	size
+YCL025C	AGP1	other	4
+YDR276C	PMP3	other	4
+YOR211C	MGM1	other	4
+YPL227C	ALG5	other	4

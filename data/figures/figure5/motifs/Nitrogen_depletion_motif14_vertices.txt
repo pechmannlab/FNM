@@ -1,0 +1,6 @@
+name	gene	type	size
+YDR005C	MAF1	other	4
+YER081W	SER3	other	4
+YGR262C	BUD32	other	4
+YHR205W	SCH9	other	4
+YNR003C	RPC34	other	4

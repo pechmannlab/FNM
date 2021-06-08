@@ -1,0 +1,5 @@
+name	gene	type	size
+YBR085W	AAC3	other	4
+YER161C	SPT2	other	4
+YGL167C	PMR1	other	4
+YIL146C	ATG32	other	4

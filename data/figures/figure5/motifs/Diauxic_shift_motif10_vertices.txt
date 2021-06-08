@@ -1,0 +1,7 @@
+name	gene	type	size
+YDR316W	OMS1	other	4
+YHR051W	COX6	other	4
+YJL062W-A	COA3	other	4
+YLR203C	MSS51	other	4
+YNR018W	RCF2	other	4
+YOR065W	CYT1	other	4

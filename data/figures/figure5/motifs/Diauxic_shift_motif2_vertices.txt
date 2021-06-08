@@ -1,0 +1,4 @@
+name	gene	type	size
+YDR142C	PEX7	other	4
+YIL068C	SEC6	other	4
+YPL145C	KES1	other	4

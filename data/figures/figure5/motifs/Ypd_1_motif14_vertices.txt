@@ -1,0 +1,4 @@
+name	gene	type	size
+YER005W	YND1	other	4
+YJL004C	SYS1	other	4
+YLR241W	CSC1	other	4

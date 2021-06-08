@@ -1,0 +1,4 @@
+name	gene	type	size
+YJL005W	CYR1	other	4
+YNL098C	RAS2	other	4
+YOL081W	IRA2	other	4

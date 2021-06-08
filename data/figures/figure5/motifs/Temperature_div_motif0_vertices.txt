@@ -1,0 +1,4 @@
+name	gene	type	size
+YAL046C	AIM1	other	4
+YER174C	GRX4	other	4
+YHR205W	SCH9	other	4

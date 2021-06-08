@@ -1,0 +1,7 @@
+ORF	name	short
+YBR098W	MMS4	Holliday_junction_resolvase
+YBR278W	DPB3	DNA_polymerase_epsilon
+YDR052C	DBF4	Cdc7p/Dbf4p
+YDR489W	SLD5	GINS
+YJL090C	DPB11	Dpb11p/Sld2p
+YNL273W	TOF1	Tof1p/Mrc1p/Csm3p

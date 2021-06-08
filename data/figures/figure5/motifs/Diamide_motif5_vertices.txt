@@ -1,0 +1,4 @@
+name	gene	type	size
+YCR039C	MATALPHA2	other	4
+YER116C	SLX8	other	4
+YMR043W	MCM1	other	4

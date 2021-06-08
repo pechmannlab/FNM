@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL021W	GPM2	other	4
+YFL047W	RGD2	other	4
+YGR188C	BUB1	other	4
+YKL214C	YRA2	other	4

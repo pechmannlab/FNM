@@ -1,0 +1,4 @@
+name	gene	type	size
+YGL219C	MDM34	other	4
+YHR083W	SAM35	other	4
+YOL009C	MDM12	other	4

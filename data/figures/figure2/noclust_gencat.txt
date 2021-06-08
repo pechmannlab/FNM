@@ -1,0 +1,5 @@
+total	26078
+suppressors	3057
+bypa	50
+essential	18051
+subunit	22921

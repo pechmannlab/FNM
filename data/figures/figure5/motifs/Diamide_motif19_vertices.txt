@@ -1,0 +1,5 @@
+name	gene	type	size
+YGR091W	PRP31	other	4
+YHR040W	BCD1	other	4
+YJR055W	HIT1	other	4
+YNL005C	MRP7	other	4

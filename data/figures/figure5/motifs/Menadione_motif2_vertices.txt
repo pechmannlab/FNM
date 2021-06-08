@@ -1,0 +1,4 @@
+name	gene	type	size
+YDL150W	RPC53	other	4
+YGR047C	TFC4	other	4
+YKR034W	DAL80	other	4

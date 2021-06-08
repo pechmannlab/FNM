@@ -1,0 +1,4 @@
+name	gene	type	size
+YGL016W	KAP122	other	4
+YML015C	TAF11	other	4
+YOR194C	TOA1	other	4

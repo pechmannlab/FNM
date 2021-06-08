@@ -1,0 +1,7 @@
+name	gene	type	size
+YBR036C	CSG2	other	4
+YCL052C	PBN1	other	4
+YDR276C	PMP3	other	4
+YMR272C	SCS7	other	4
+YPL227C	ALG5	other	4
+YPL264C	YPL264C	other	4

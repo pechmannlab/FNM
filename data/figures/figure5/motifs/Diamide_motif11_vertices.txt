@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR169C	SSE2	other	4
+YNL291C	MID1	other	4
+YPL036W	PMA2	other	4

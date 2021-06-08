@@ -1,0 +1,7 @@
+name	gene	type	size
+YBR086C	IST2	other	4
+YDR486C	VPS60	other	4
+YKR003W	OSH6	other	4
+YLR181C	VTA1	other	4
+YNL265C	IST1	other	4
+YPR173C	VPS4	other	4

@@ -1,0 +1,4 @@
+name	gene	type	size
+YDL137W	ARF2	other	4
+YDR358W	GGA1	other	4
+YNL297C	MON2	other	4

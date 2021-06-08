@@ -1,0 +1,4 @@
+name	gene	type	size
+YFL033C	RIM15	other	4
+YLR131C	ACE2	other	4
+YNL157W	IGO1	other	4

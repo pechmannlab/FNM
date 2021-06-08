@@ -1,0 +1,4 @@
+name	gene	type	size
+YER161C	SPT2	other	4
+YHL025W	SNF6	other	4
+YLL022C	HIF1	other	4

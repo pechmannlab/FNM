@@ -1,0 +1,6 @@
+name	gene	type	size
+YBR049C	REB1	other	4
+YDR026C	NSI1	other	4
+YDR110W	FOB1	other	4
+YLR176C	RFX1	other	4
+YOR249C	APC5	other	4

@@ -1,0 +1,5 @@
+name	gene	type	size
+YGR033C	TIM21	other	4
+YKL195W	MIA40	other	4
+YLR218C	COA4	other	4
+YPL098C	MGR2	other	4

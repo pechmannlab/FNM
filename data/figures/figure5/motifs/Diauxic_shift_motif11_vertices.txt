@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL012C	YDL012C	other	4
+YDR207C	UME6	other	4
+YNL091W	NST1	other	4
+YOR355W	GDS1	other	4

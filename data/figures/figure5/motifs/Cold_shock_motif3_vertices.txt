@@ -1,0 +1,5 @@
+name	gene	type	size
+YBR085W	AAC3	other	4
+YCR061W	YCR061W	other	4
+YLL048C	YBT1	other	4
+YMR192W	GYL1	other	4

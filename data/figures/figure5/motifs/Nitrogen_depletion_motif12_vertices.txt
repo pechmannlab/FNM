@@ -1,0 +1,5 @@
+name	gene	type	size
+YBR110W	ALG1	other	4
+YDR459C	PFA5	other	4
+YGR216C	GPI1	other	4
+YNL048W	ALG11	other	4

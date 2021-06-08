@@ -1,0 +1,6 @@
+name	gene	type	size
+YCR068W	ATG15	other	4
+YIR033W	MGA2	other	4
+YML055W	SPC2	other	4
+YOL126C	MDH2	other	4
+YPR159C-A	YPR159C-A	other	4

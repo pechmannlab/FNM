@@ -1,0 +1,5 @@
+name	gene	type	size
+YBL103C	RTG3	other	4
+YCR048W	ARE1	other	4
+YNL076W	MKS1	other	4
+YOR334W	MRS2	other	4

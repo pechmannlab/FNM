@@ -1,0 +1,5 @@
+name	gene	type	size
+YBR218C	PYC2	other	4
+YCR079W	PTC6	other	4
+YGL062W	PYC1	other	4
+YML058W	SML1	other	4

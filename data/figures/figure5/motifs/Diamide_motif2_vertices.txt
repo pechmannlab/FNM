@@ -1,0 +1,6 @@
+name	gene	type	size
+YAL058W	CNE1	other	4
+YBR254C	TRS20	other	4
+YFR042W	KEG1	other	4
+YGR143W	SKN1	other	4
+YOR336W	KRE5	other	4

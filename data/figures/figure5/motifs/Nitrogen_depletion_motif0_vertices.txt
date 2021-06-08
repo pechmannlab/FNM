@@ -1,0 +1,7 @@
+name	gene	type	size
+YDL180W	YDL180W	other	4
+YDL186W	YDL186W	other	4
+YEL025C	YEL025C	other	4
+YLR452C	SST2	other	4
+YMR004W	MVP1	other	4
+YNL327W	EGT2	other	4

@@ -1,0 +1,4 @@
+name	gene	type	size
+YBR140C	IRA1	other	4
+YJL005W	CYR1	other	4
+YOL081W	IRA2	other	4

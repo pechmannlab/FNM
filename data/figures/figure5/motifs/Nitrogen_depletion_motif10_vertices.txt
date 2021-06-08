@@ -1,0 +1,4 @@
+name	gene	type	size
+YGR250C	YGR250C	other	4
+YML051W	GAL80	other	4
+YOR370C	MRS6	other	4

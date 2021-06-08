@@ -1,0 +1,4 @@
+name	gene	type	size
+YCL052C	PBN1	other	4
+YJL108C	PRM10	other	4
+YJR106W	ECM27	other	4

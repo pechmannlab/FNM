@@ -1,0 +1,7 @@
+name	gene	type	size
+YDR168W	CDC37	other	4
+YDR463W	STP1	other	4
+YJL165C	HAL5	other	4
+YML041C	VPS71	other	4
+YOR329C	SCD5	other	4
+YPR013C	CMR3	other	4

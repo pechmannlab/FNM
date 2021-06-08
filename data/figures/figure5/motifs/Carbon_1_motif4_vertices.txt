@@ -1,0 +1,5 @@
+name	gene	type	size
+YDL207W	GLE1	other	4
+YER107C	GLE2	other	4
+YGL092W	NUP145	other	4
+YKR082W	NUP133	other	4

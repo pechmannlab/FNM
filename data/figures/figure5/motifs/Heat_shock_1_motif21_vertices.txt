@@ -1,0 +1,6 @@
+name	gene	type	size
+YHR061C	GIC1	other	4
+YJR053W	BFA1	other	4
+YJR134C	SGM1	other	4
+YNL233W	BNI4	other	4
+YOR058C	ASE1	other	4

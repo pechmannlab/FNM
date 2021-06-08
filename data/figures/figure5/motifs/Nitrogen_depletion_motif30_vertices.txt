@@ -1,0 +1,7 @@
+name	gene	type	size
+YBR035C	PDX3	other	4
+YCL055W	KAR4	other	4
+YDR168W	CDC37	other	4
+YFL033C	RIM15	other	4
+YLR405W	DUS4	other	4
+YMR037C	MSN2	other	4

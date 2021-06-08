@@ -1,0 +1,5 @@
+name	gene	type	size
+YJR093C	FIP1	other	4
+YMR061W	RNA14	other	4
+YNL092W	YNL092W	other	4
+YOR329C	SCD5	other	4

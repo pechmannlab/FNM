@@ -1,0 +1,6 @@
+name	gene	type	size
+YDR405W	MRP20	other	4
+YGL065C	ALG2	other	4
+YIL072W	HOP1	other	4
+YIL073C	SPO22	other	4
+YJL112W	MDV1	other	4

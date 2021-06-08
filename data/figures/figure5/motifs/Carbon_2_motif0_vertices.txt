@@ -1,0 +1,7 @@
+name	gene	type	size
+YDR088C	SLU7	other	4
+YDR482C	CWC21	other	4
+YHR167W	THP2	other	4
+YKL095W	YJU2	other	4
+YKR086W	PRP16	other	4
+YPR101W	SNT309	other	4

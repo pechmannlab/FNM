@@ -1,0 +1,6 @@
+name	gene	type	size
+YDR204W	COQ4	other	4
+YGR255C	COQ6	other	4
+YJL068C	YJL068C	other	4
+YLR290C	YLR290C	other	4
+YOR125C	CAT5	other	4

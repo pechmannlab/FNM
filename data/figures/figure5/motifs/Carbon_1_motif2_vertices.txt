@@ -1,0 +1,4 @@
+name	gene	type	size
+YAL053W	FLC2	other	4
+YMR307W	GAS1	other	4
+YOR085W	OST3	other	4

@@ -8,7 +8,7 @@ library(ggplot2)
 library(reshape2)
 library(MASS)
 library(igraph)
-
+library(ggraph)
 
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PANEL 4A ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,13 +90,42 @@ dev.off()
 
 
 
-
-
-
-
-
-
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PANEL 4C ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+data.betw <- data.frame(class=factor(c("FNM", "FNM", "PPI", "PPI", "PPI_all", "PPI_all")),
+                        type=factor(c("all", "path", "all", "path", "all", "path")),
+                        count=c(nrow(ganno_fnm_2), nrow(ganno_fnm_2[ganno_fnm_2$betw>0,]),
+                                nrow(ganno_50_2[ganno_50_2$type!='C',]), nrow(ganno_50_2[ganno_50_2$betw>0,]),
+                                nrow(ganno_0_2[ganno_0_2$type!='C',]), nrow(ganno_0_2[ganno_0_2$betw>0,]) )
+)
+
+
+
+svg(file = "figures/Figure4/C_counts.svg", height=3, width=5)
+
+ggplot(data.betw) +
+  geom_col(aes(x=class, y=count, fill=class), color="black", position="dodge2", size=0.8, linetype=c(1,5,1,5,1,5)) +
+  scale_fill_manual(values=c("#AA00AA", "#555555", "#BBBBBB")) +
+  labs(x="", y="Count") +
+  theme_classic() +
+  theme(
+    text = element_text(size=20),
+    axis.line.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_blank(),
+    legend.title = element_blank()
+  )
+
+dev.off()
+
+
+
+
+
+
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PANEL 4D ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 bn <- ganno[ganno$type=="S",]
@@ -108,7 +137,7 @@ bn.25 <- bn.top[(nrow(bn.top)-24):nrow(bn.top),]
 
 
 
-svg(file = "figures/Figure4/C_counts.svg", height=5, width=3)
+svg(file = "figures/Figure4/D_bottlencks.svg", height=5, width=3)
 
 ggplot(bn.25) +
   geom_col(aes(x=name, y=betw)) + 
@@ -129,10 +158,7 @@ dev.off()
 
 
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PANEL 4D ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ PANEL 4E ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 df_net <- as.data.frame(read.table("data/figures/figure4/tfmetab_network.txt", header=T))
 df_net$alpha <- ifelse(df_net$weight == 1, 1, 0.6)
@@ -240,7 +266,7 @@ lay[match("YER040W", lay$name),c(1,2)] <- c(0, 0)
 
 
 
-svg("figures/Figure4/D_TFmetab.svg", height=4, width=16)
+svg("figures/Figure4/E_TFmetab.svg", height=4, width=16)
 
 ggraph(graph, layout=lay) + 
   geom_edge_arc(aes(colour=df_net$type), width=edge_width, edge_alpha=edge_alpha, strength=df_net$strength) + 

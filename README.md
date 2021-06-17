@@ -3,4 +3,4 @@
 biorxiv: \
 Contact: Sebastian Pechmann\
 Email: sebastian@pechmannlab.net\
-Web: www.pechmannlab.net\
+Web: www.pechmannlab.net

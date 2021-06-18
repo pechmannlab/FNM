@@ -202,7 +202,10 @@ dev.off()
 
 
 
-
+#wilcox.test(clustdf$deg[clustdf$class=="clust"], clustdf$deg[clustdf$class=="noclust"])$p.value
+#[1] 2.315483e-30
+#wilcox.test(clustdf$N[clustdf$class=="clust"], clustdf$N[clustdf$class=="noclust"])$p.value
+#[1] 5.300762e-134
 
 
 

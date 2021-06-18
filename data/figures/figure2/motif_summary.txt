@@ -1,0 +1,3 @@
+cat	orf	motif
+Total	2721	406545
+Noclust	2386	26078

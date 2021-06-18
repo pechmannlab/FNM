@@ -51,12 +51,12 @@ ganno_0_5 <- as.data.frame(read.table("data/figures/figure4/refnet_annotation_0_
 ganno_50_2 <- as.data.frame(read.table("data/figures/figure4/refnet_annotation_50_2.txt", header=T))
 ganno_50_5 <- as.data.frame(read.table("data/figures/figure4/refnet_annotation_50_5.txt", header=T))
 
-betw.fnm.2 <- ganno_fnm_2[ganno_fnm_2$type!='C',3]
-betw.fnm <- ganno[ganno$type!='C',3]
-betw.0.2 <- ganno_0_2[ganno_0_2$type!='C',3]
-betw.0.5 <- ganno_0_5[ganno_0_5$type!='C',3]
-betw.50.2 <- ganno_50_2[ganno_50_2$type!='C',3]
-betw.50.5 <- ganno_50_5[ganno_50_5$type!='C',3]
+betw.fnm.2 <- ganno_fnm_2[ganno_fnm_2$type!='C',4]
+betw.fnm <- ganno[ganno$type!='C',4]
+betw.0.2 <- ganno_0_2[ganno_0_2$type!='C',4]
+betw.0.5 <- ganno_0_5[ganno_0_5$type!='C',4]
+betw.50.2 <- ganno_50_2[ganno_50_2$type!='C',4]
+betw.50.5 <- ganno_50_5[ganno_50_5$type!='C',4]
 
 
 betw.DF <- rbind(
@@ -87,6 +87,12 @@ ggplot(betw.DF) +
 
 dev.off()
 
+
+
+#wilcox.test(as.numeric(betw.fnm.2), as.numeric(betw.50.2))
+#W = 1727872, p-value = 1.055e-06
+#wilcox.test(as.numeric(betw.50.2), as.numeric(betw.0.2))$p.value
+#[1] 9.246065e-174
 
 
 

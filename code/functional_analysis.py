@@ -145,6 +145,11 @@ def motif_suppressors(category):
             motif_data = pd.read_csv('../data/motif/result_d50_k'+str(k)+'.txt', header=0, index_col=False, sep='\t')
         elif category == "ALL":
             motif_data = pd.read_csv('../data/motif/result_d50_all_k'+str(k)+'.txt', header=0, index_col=False, sep='\t')
+        elif category == "RAND":
+            motif_data = pd.read_csv("../data/motif/revision_rand_result_d50_all_k"+str(k)+'.txt', header=0, index_col=False, sep='\t')
+#            motif_data = pd.read_csv("../data/motif/revision_rand0_result_d50_all_k"+str(k)+'.txt', header=0, index_col=False, sep='\t')
+
+
 
         current_columns = motif_data.columns
         current_columns = list(current_columns[1:-1])    
@@ -809,6 +814,9 @@ def full6_gi(motifDF, G, GI):
     np.savetxt("../data/figures/figure3/complex_network_gi_pos.txt", gmat_gi_pos, fmt='%.4f')
     np.savetxt("../data/figures/figure3/complex_network_gi_neg.txt", gmat_gi_neg, fmt='%.4f')
 
+    keyDF = pd.DataFrame({'complex_pairs': list(current_gi_dict.keys())})
+    keyDF.to_csv("../data/figures/figure3/complex_pairs.txt", header=True, index=False)
+
 
     #---- heuristic hierarchical cluster of nodes for the edge bundeling ---- 
     gmat2 = np.copy(gmat_complex)	# copy without edge weights
@@ -1087,7 +1095,9 @@ if __name__ == '__main__':
     ## FIGURE 2 analyses
     fnm_total, fnm_supp, fnm_bypa = motif_suppressors("FNM")
     all_total, all_supp, all_bypa = motif_suppressors("ALL")
-    suppDF = pd.DataFrame(data=np.array([[fnm_total, fnm_supp, fnm_bypa],[all_total, all_supp, all_bypa]]), columns=['all', 'supp', 'bypa'])
+    rand_total, rand_supp, rand_bypa = motif_suppressors("RAND")
+    print(rand_total, rand_supp, rand_bypa)
+    suppDF = pd.DataFrame(data=np.array([[fnm_total, fnm_supp, fnm_bypa],[all_total, all_supp, all_bypa],[rand_total, rand_supp, rand_bypa]]), columns=['all', 'supp', 'bypa'], index=['FNM', 'ALL', 'RAND'])
     suppDF.to_csv("../data/figures/figure2/yeast_suppressors.txt", header=True, index=False, sep='\t')
 
     fnm_ess, fnm_sub = motif_gencat("FNM")
@@ -1099,22 +1109,22 @@ if __name__ == '__main__':
 
 
     ## FIGURE 3 analyses
-#    df_ess = pd.read_csv("../data/figures/figure2/FNM.full6.ess.txt", header=0, index_col=False, sep='\t')
-#    df_sub = pd.read_csv("../data/figures/figure2/FNM.full6.sub.txt", header=0, index_col=False, sep='\t')
-#    gmat = full6_gi(df_sub, G_ppi_50, G_gi)
-#    score_full6(df_sub, G_ppi_50, G_gi)
+    df_ess = pd.read_csv("../data/figures/figure2/FNM.full6.ess.txt", header=0, index_col=False, sep='\t')
+    df_sub = pd.read_csv("../data/figures/figure2/FNM.full6.sub.txt", header=0, index_col=False, sep='\t')
+    gmat = full6_gi(df_sub, G_ppi_50, G_gi)
+    score_full6(df_sub, G_ppi_50, G_gi)
 
 
     ## FIGURE 4 analyses
     # complex network
-#    parse_complex_net(noclustDF, 2)
-#    parse_complex_net(noclustDF, 5)
-#    parse_complex_net(noclustDF, 10)
-#    reference_complex_net(G_ppi, 0, 2)
-#    reference_complex_net(G_ppi, 0, 5)
-#    reference_complex_net(G_ppi_50, 50, 2)
-#    reference_complex_net(G_ppi_50, 50, 5)
+    parse_complex_net(noclustDF, 2)
+    parse_complex_net(noclustDF, 5)
+    parse_complex_net(noclustDF, 10)
+    reference_complex_net(G_ppi, 0, 2)
+    reference_complex_net(G_ppi, 0, 5)
+    reference_complex_net(G_ppi_50, 50, 2)
+    reference_complex_net(G_ppi_50, 50, 5)
 
     # TF - metabolism link
-#    feedback_candidates(noclustDF, G_ppi_50, G_gi)
+    feedback_candidates(noclustDF, G_ppi_50, G_gi)
 

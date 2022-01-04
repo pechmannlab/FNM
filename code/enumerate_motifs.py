@@ -592,7 +592,7 @@ if __name__ == '__main__':
 
 
 
-    # generate random PPI motifs with some GI content as FNMs
+    # generate random PPI motifs with same GI content as FNMs
     for k in [3,4,5,6]:
         motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "revision_rand_result_d50_all_k"+str(k), True, False, 0.5, writeDF=True)
 

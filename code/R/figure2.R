@@ -17,7 +17,7 @@ setwd("~/FNM/")
 
 supp <- read.table("data/figures/figure2/yeast_suppressors.txt", header=T)
 supp <- supp[,c(1,2)]
-supp <- data.frame(cat=c("FNM", "PPI"), pct=(supp[,2]/supp[,1]) )
+supp <- data.frame(cat=factor(c("FNM", "PPI", "CTRL"), levels=c("FNM", "PPI", "CTRL")), pct=(supp[,2]/supp[,1]) )
 
 
 svg(file = "figures/Figure2/A_suppressor.svg", height=4, width=2.5)
@@ -25,10 +25,10 @@ svg(file = "figures/Figure2/A_suppressor.svg", height=4, width=2.5)
 ggplot(supp) + 
   geom_col(aes(x=cat, y=pct*100, fill=cat), position="dodge2") + 
   theme_classic() +
-  scale_fill_manual(values=c("#2988E2", "#555555")) + 
+  scale_fill_manual(values=c("#2988E2", "#555555", "#222222")) + 
   labs(x="", y="% with suppressor interactions") + 
   theme(
-    text = element_text(size=20),
+    text = element_text(size=18),
     axis.line.x = element_blank(), 
     axis.ticks.x = element_blank(),
     legend.position = 'none'

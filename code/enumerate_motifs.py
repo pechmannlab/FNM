@@ -581,7 +581,7 @@ if __name__ == '__main__':
         motif_stats = find_motifs(G_ppi_100, G_gi_100, complexes, k, "result_d100_k"+str(k), False, False, 0.5, writeDF=False)
   
         #randomization experiments
-        for r in range(7,30):
+        for r in range(30):
             motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "rand"+str(r)+"_result_rand_d50_k"+str(k), True, False, 0.5, writeDF=False)
             motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "rand"+str(r)+"_result_randgi_d50_k"+str(k), False, True, 0.5, writeDF=True)
 
@@ -590,3 +590,11 @@ if __name__ == '__main__':
     # only PPI motifs - the counts and randomized counts are computed above, but this function also writes out the enumerated motifs
     motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "result_d50_all_k"+str(k), False, False, 0, writeDF=True)
 
+
+
+    # generate random PPI motifs with some GI content as FNMs
+    for k in [3,4,5,6]:
+        motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "revision_rand_result_d50_all_k"+str(k), True, False, 0.5, writeDF=True)
+
+        for r in range(10):
+            motif_stats = find_motifs(G_ppi_50, G_gi_50, complexes, k, "revision_rand"+str(r)+"_result_d50_all_k"+str(k), True, False, 0.5, writeDF=True)
